@@ -1,0 +1,537 @@
+@charset "utf-8";
+
+body , .main-header , .loader-wrap , .slider-counter_wrap , .bottom-panel , .search-input input ,.scroll-nav-wrap, .fixed-bottom-content , .bottom-filter-wrap , .thumbnail-container , .thumb-img:before  {
+    background: black;
+}
+p , .nav-holder nav li a , .sb-widget p  a , .sb-widget-wrap h3 , .share-btn span , .scroll-down-wrap span  , .search-input input::-webkit-input-placeholder  , .search-input input  , .section-title h3  , .column-wrapper_text p , .inline-facts .num , .custom-skillbar-title span , .skill-bar-percent , .serv-item h4 a   , .testi-item h3 , .testilider .swiper-slide.swiper-slide-active .testi-item p   , .policy-box , .post.fw-post h2 , .post.fw-post h2 a , .pr-tags span , .author-content h5 a , #comments-title, #reply-title , .fn a , .custom-form input::-webkit-input-placeholder, .custom-form input , .custom-form textarea , .custom-form textarea::-webkit-input-placeholder , .contact-details ul li a , .gallery-filters a.gallery-filter-active , .vis-thumb-info .thumb-info h3, .vis-thumb-info .thumb-info h3 a , .fixed-bottom-content .gallery-filters a.gallery-filter-active , .pr-det-container h2 , .caption-wrap ul li span , .content-nav li a , .content-nav li a.ln i, .content-nav li a.rn i, .content-nav li a span.tooltip , .closedet_style , .single-carousel-control .fw-carousel-counter span , .blog-title-opt li a:hover, .pr-tags li a:hover , .custom-form textarea, .custom-form input[type="text"], .custom-form input[type=email], .custom-form input[type=password] {
+  color:#fff;
+}
+.search-input:before  , #footer-twiit div.user a   , .share-btn , .section-title h4 , .inline-facts h6 , .serv-item ul li a , .serv-item ul li  , .testi-item p  , blockquote p , .comment-meta a , .comment-meta , .vis-thumb-info .thumb-info p  , .fs-mode-title {
+  color:rgba(255,255,255,0.8);
+}
+blockquote:before {
+  color:rgba(255,255,255,0.2);
+}
+.sb-button_point:before  , .scroller , .scroll-down-wrap span:before , .gallery-filters a:before{
+  background:rgba(255,255,255,0.9);
+}
+.search-input input   , .sb-widget-wrap , #footer-twiit ul li  , .section-title , .testi-item p , .testi-avatar  , .footer-inner , blockquote  , #comments-title, #reply-title , .post-author , .content-nav {
+  border-color:rgba(255,255,255,0.1);
+}
+.mousey , .fs-mode:before, .fs-mode:after, .fs-mode span:before, .fs-mode span:after{
+  border-color:rgba(255,255,255,0.2);
+}
+.hiiden-sidebar-wrap , .share-wrapper , .home-main_container , .multi-slideshow-wrap_3 , .column-wrapper   , .column-notifer  , .testi-item p , .author-social , .fixed-bottom-content.fbc_white , .fix-pr-det  {
+  background:#000;
+}
+.hs_init .swiper-scrollbar-drag , .double-bounce1,.double-bounce2 , .custom-skillbar , .sec-dec , .single-carousel-control .fw-carousel-counter:before , .single-carousel-control .fw-carousel-counter:after   {
+  background:rgba(255,255,255,0.3);
+}
+.custom-form textarea, .custom-form input[type="text"], .custom-form input[type=email], .custom-form input[type=password] {
+  background:rgba(255,255,255,0.1);
+  border-color:transparent
+}
+#subscribe-button  , .twitt_btn , #footer-twiit p.interact a , .slider-counter_wrap .fw-carousel-counter, .slider-counter_wrap .swiper-counter, .slider-counter_wrap .count-folio , .hs_init:before  ,.btn , .skillbar-bg , .serv-price , .to-top , .bottom-filter-wrap:before  , .single-carousel-control .fw-carousel-counter {
+  background:#000;
+}
+.search-input input:focus  {
+  border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.element-item {
+  border: 2px solid #fff;
+}
+.nav-button span {
+    background: #fff;
+}
+.search-button {
+  color:#fff;
+}
+@media only screen and (max-width: 640px){
+.fix-pr-det, .fix-pr-det.hid-det {
+    background: #161616;
+}
+.search-input {
+  background:#1B1B1B;
+}
+
+}
+
+/* Samsung Browser */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+  .bg {
+    background-attachment: scroll !important;
+    -webkit-background-size: cover;
+    background-position: center;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    
+  z-index: 3;}
+
+
+  .section-title h4 {
+    font-family: 'Playfair+Display', serif;
+    font-style: italic;
+  color:#999;
+  max-width:200px;
+  text-align:left;
+
+}
+
+.column-title h3 {
+    font-family: 'Playfair+Display', serif;
+    font-style: italic;
+  color:rgba(255,255,255,0.91);
+  max-width:250px;
+  font-size: 15px;
+}
+
+  .home-main_title_item h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.home-main_title_item h1 {
+    font-weight: 700;
+    font-size: 84px;
+   
+
+   
+  color:#999;
+  max-width:200px;
+  text-align:left;
+
+}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 4) {
+
+
+
+  .bg {
+    background-attachment: scroll !important;
+    -webkit-background-size: cover;
+    background-position: center;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    
+  z-index: 3;
+
+  background: url(https://) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
+
+}
+
+@media screen and (max-width:760px) {
+
+  
+
+  .bg {
+    background-attachment: scroll !important;
+    -webkit-background-size: cover;
+    background-position: center;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    
+  z-index: 3;
+
+  background: url(https://) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
+
+}
+
+@media (max-width: 900px) {
+  #about-canvas {
+    height: 200px !important;
+    max-height: 200px !important;
+    width: 100% !important;
+    display: block;
+  }
+  .overlay {
+    height: 200px !important;
+    min-height: 0 !important;
+    max-height: 200px !important;
+  }
+  .column-image {
+    min-height: unset !important;
+    height: 200px !important;
+    max-height: 200px !important;
+  }
+}
+
+/* --- CERCLE ADN: Overlay/CANVAS carré et centré --- */
+
+.overlay {
+  position: relative !important;
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 350px;
+  height: 100vh;
+  width: 100vw;
+  overflow: visible;
+  background: #000 !important;
+}
+
+#about-canvas {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  /* Toujours carré : la plus petite dimension de la fenêtre */
+  width: min(90vw, 90vh) !important;
+  height: min(90vw, 90vh) !important;
+  max-width: 90vw !important;
+  max-height: 90vh !important;
+  aspect-ratio: 1/1;
+  transform: translate(-50%, 0);
+  z-index: 5;
+  pointer-events: auto;
+}
+
+
+/* --- CENTRAGE CERCLE ADN ET TEXTE ABOUT (MOBILE) --- */
+@media (max-width: 900px) {
+  .overlay {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 260px;
+    height: 260px;
+    max-height: 300px;
+    position: relative !important;
+    background: #000 !important;
+    /* Pour éviter que le texte "ABOUT" chevauche le cercle */
+  }
+  #about-canvas {
+    position: relative;
+    display: block;
+    width: 180px !important;
+    height: 180px !important;
+    max-width: 96vw !important;
+    max-height: 180px !important;
+    left: auto;
+    top: 0;
+    margin: 0 auto;
+    transform: none;
+    aspect-ratio: 1/1;
+    z-index: 5;
+  }
+  .column-title {
+    margin-top: 58px !important;    /* <--- Augmente cet espace pour descendre ABOUT */
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center !important;
+    z-index: 10;
+  }
+  .column-title h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 2rem !important;
+  }
+  .column-title h3 {
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 640px) {
+  .overlay {
+    min-height: 170px;
+    height: 190px;
+    max-height: 220px;
+  }
+  #about-canvas {
+    height: 120px !important;
+    max-height: 120px !important;
+    width: 120px !important;
+    margin-bottom: 0;
+  }
+  .column-title {
+    margin-top: 36px !important;  /* Encore plus d'espace sous le cercle sur très petit écran */
+  }
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    min-height: 130px;
+    height: 170px;
+    max-height: 210px;
+  }
+  #about-canvas {
+    height: 130px !important;
+    max-height: 130px !important;
+    top: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    min-height: 160px;
+    height: 170px;
+    max-height: 170px;
+  }
+  #about-canvas {
+    height: 130px !important;
+    max-height: 130px !important;
+  }
+}
+
+/* === Désactive l'ancien sizing qui force 100% width/height et cause l'ovale === */
+@media (min-width: 901px) {
+  #about-canvas {
+    width: min(90vw, 90vh) !important;
+    height: min(90vw, 90vh) !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
+    aspect-ratio: 1/1;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+  }
+  .overlay {
+    height: 100vh !important;
+    max-height: 100vh !important;
+    min-height: 350px !important;
+  }
+}
+
+/* --- Place ce bloc APRÈS tout le reste pour qu'il ait priorité --- */
+
+
+
+/* --- ADN SECTION: CERCLE TOUJOURS SOUS LE TITRE ET LE TRAIT --- */
+
+.column-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Correction du titre et du sous-titre, groupés sans espace */
+.column-title {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  text-align: center !important;
+  z-index: 10;
+  position: relative;
+}
+.column-title h2 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 2rem !important;
+  line-height: 1.10 !important;
+}
+.column-title h3 {
+  margin-top: 0.15em !important;
+  margin-bottom: 0 !important;
+  font-size: 1rem !important;
+  line-height: 1.05 !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* Le trait décoratif sous le titre */
+.fixed-column-dec {
+  width: 100%;
+  height: 1.2em;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  z-index: 3;
+  position: relative;
+}
+
+/* Overlay/canvas block : bien centré, jamais absolute sur mobile */
+.overlay {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 170px;
+  height: 200px;
+  max-height: 260px;
+  position: relative !important;
+  background: #000 !important;
+  width: 100%;
+  z-index: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Canvas ADN : centré et carré, jamais absolute sur mobile */
+#about-canvas {
+  position: relative !important;
+  display: block;
+  width: 180px !important;
+  height: 180px !important;
+  max-width: 96vw !important;
+  max-height: 180px !important;
+  left: auto !important;
+  top: 0 !important;
+  margin: 0 auto !important;
+  transform: none !important;
+  aspect-ratio: 1/1 !important;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+/* --- DESKTOP: cercle plus grand, canvas absolute si tu veux, mais reste sous le titre/trait --- */
+@media (min-width: 901px) {
+  .column-image {
+    min-height: 350px;
+  }
+  .overlay {
+    min-height: 350px;
+    height: 100vh;
+    max-height: 100vh;
+    position: relative !important;
+    background: #000 !important;
+  }
+  #about-canvas {
+    width: min(90vw, 90vh) !important;
+    height: min(90vw, 90vh) !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
+    aspect-ratio: 1/1 !important;
+    left: 50%;
+    top: 0;
+    margin: 0 auto !important;
+    position: absolute !important;
+    transform: translate(-50%, 0);
+    z-index: 2;
+  }
+}
+
+/* Ultra small screens : cercle plus compact */
+@media (max-width: 640px) {
+  .overlay {
+    min-height: 110px;
+    height: 130px;
+    max-height: 150px;
+  }
+  #about-canvas {
+    width: 95vw !important;
+    height: 95vw !important;
+    max-width: 130px !important;
+    max-height: 130px !important;
+  }
+}
+
+/* Pour toujours forcer l'ordre visuel/couche */
+.column-title, .fixed-column-dec, .overlay {
+  position: relative;
+}
+
+@media (max-width: 900px)/* Forcer le style du scroll-down fixé */
+.scroll-down-fixed .scroll-down-wrap {
+  float: none !important;
+  height: auto !important;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+  width: max-content !important;
+  padding: 0.9em 1.6em 1.1em 1.6em !important;
+  background: rgba(0,0,0,0.68) !important;
+  border-radius: 2em !important;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.28) !important;
+  color: #fff !important;
+  font-size: 1.12em !important;
+  font-weight: 600 !important;
+  pointer-events: auto !important;
+}
+.scroll-down-fixed .scroll-down-wrap span {
+  float: none !important;
+  margin-left: 16px !important;
+  position: static !important;
+  top: auto !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  font-size: 1.05em !important;
+  color: #fff !important;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.65) !important;
+}
+.scroll-down-fixed .scroll-down-wrap span:before {
+  content: none !important;
+}
+
+
+
+/* Forcer le style du scroll-down fixé */
+.scroll-down-fixed .scroll-down-wrap {
+  float: none !important;
+  height: auto !important;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+  width: max-content !important;
+  padding: 0.9em 1.6em 1.1em 1.6em !important;
+  background: rgba(0,0,0,0.68) !important;
+  border-radius: 2em !important;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.28) !important;
+  color: #fff !important;
+  font-size: 1.12em !important;
+  font-weight: 600 !important;
+  pointer-events: auto !important;
+}
+.scroll-down-fixed .scroll-down-wrap span {
+  float: none !important;
+  margin-left: 16px !important;
+  position: static !important;
+  top: auto !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  font-size: 1.05em !important;
+  color: #fff !important;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.65) !important;
+}
+.scroll-down-fixed .scroll-down-wrap span:before {
+  content: none !important;
+}
+}
+
