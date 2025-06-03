@@ -1,0 +1,30 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   (Full text available at https://www.apache.org/licenses/LICENSE-2.0)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+   -----------------------------------------------------------------
+   NOTICE: 
+   Certain advanced modules, integrations, and services referenced by this 
+   project are NOT covered by this license and require a commercial agreement. 
+   See COMMERCIAL.md and README.md for details.
+
+   Project and scripts created by AsciiMetric.  
+   Visit: https://www.asciimetric.com
+
+   © 2025 MetricX & AsciiMetric. All rights reserved.
