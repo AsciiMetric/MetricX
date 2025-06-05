@@ -1,0 +1,10 @@
+2025-06-05 08:38:33,166 INFO === MetricX DXF Diagnostic ULTIME (OCR, statique) ===
+2025-06-05 08:38:33,166 INFO DXF: F:/MetricX_beta_0.1/CAD_datas/M0166-05-0001-00/m0166-05-0001-00.dxf | Template: F:/MetricX_beta_0.1/CAD_datas/json_based_standard_file/base_file_template_01.1.json
+2025-06-05 08:38:33,166 INFO Loaded template, part_id: M0166-05-0001-00
+2025-06-05 08:38:33,282 INFO creating ACAD_COLOR dictionary
+2025-06-05 08:38:33,283 INFO creating ACAD_MATERIAL dictionary
+2025-06-05 08:38:33,283 INFO creating ACAD_MLEADERSTYLE dictionary
+2025-06-05 08:38:33,283 INFO creating ACAD_SCALELIST dictionary
+2025-06-05 08:38:33,283 INFO creating ACAD_TABLESTYLE dictionary
+2025-06-05 08:38:33,284 INFO creating ACAD_VISUALSTYLE dictionary
+2025-06-05 08:38:33,284 INFO Extraction entités DXF...
