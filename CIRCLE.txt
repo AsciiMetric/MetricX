@@ -1,0 +1,7 @@
+{'handle': 'BA7', 'layer': 'M0166-05-0001-00_DXF_FORMAT', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(376.149621552, 24.4809636205, 0.0), 'radius': 3.0310434885, 'owner': '1F'}
+{'handle': 'BA8', 'layer': 'M0166-05-0001-00_DXF_FORMAT', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(376.2078777391, 24.4806147811, 0.0), 'radius': 1.7543211771, 'owner': '1F'}
+{'handle': 'BA9', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(178.8869250755, 190.5596024525, 0.0), 'radius': 22.0, 'owner': '1F'}
+{'handle': 'BAE', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(154.8869250755, 214.5596024525, 0.0), 'radius': 4.0, 'owner': '1F'}
+{'handle': 'BAF', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(202.8869250755, 214.5596024525, 0.0), 'radius': 4.0, 'owner': '1F'}
+{'handle': 'BB0', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(202.8869250755, 166.5596024525, 0.0), 'radius': 4.0, 'owner': '1F'}
+{'handle': 'BB1', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(154.8869250755, 166.5596024525, 0.0), 'radius': 4.0, 'owner': '1F'}

@@ -1,0 +1,1 @@
+{'handle': 'ADC', 'layer': 'M0166-05-0001-00_DXF_FORMAT', 'style': 'TEXTSTYLE_1', 'attachment_point': 2, 'flow_direction': 1, 'insert': Vec3(343.9023718009, 16.7188912226, 0.0), 'text_direction': Vec3(1.0, 0.0, 0.0), 'char_height': 1.1, 'width': 64.775390625, 'color': 5, 'linetype': 'CONTINUOUS', 'owner': '1F'}
