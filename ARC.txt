@@ -1,4 +1,0 @@
-{'handle': 'BAA', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(208.8869250755, 160.5596024525, 0.0), 'radius': 6.0, 'start_angle': 270.0, 'end_angle': 360.0, 'owner': '1F'}
-{'handle': 'BAB', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(148.8869250755, 160.5596024525, 0.0), 'radius': 6.0, 'start_angle': 180.0, 'end_angle': 270.0, 'owner': '1F'}
-{'handle': 'BAC', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(148.8869250755, 220.5596024525, 0.0), 'radius': 6.0, 'start_angle': 90.0, 'end_angle': 180.0, 'owner': '1F'}
-{'handle': 'BAD', 'layer': 'M0166-05-000DXF_CONTINUOUS_LINE', 'color': 7, 'linetype': 'CONTINUOUS', 'center': Vec3(208.8869250755, 220.5596024525, 0.0), 'radius': 6.0, 'start_angle': 0.0, 'end_angle': 90.0, 'owner': '1F'}
