@@ -1,0 +1,1741 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>METRICX | Solution Industrielle PLM, PDM & Automatisation – Industrie 4.0/5.0</title>
+<meta name="description" content="MetricX – La solution innovante pour l’industrie 4.0 et 5.0 : synchronisation intelligente PLM/PDM, automatisation des flux industriels, traçabilité avancée et standardisation profonde des données techniques. Déployez une infrastructure digitale robuste, interopérable et évolutive pour la transformation industrielle.">
+<meta name="keywords" content="MetricX, AsciiMetric, solution PLM, solution PDM, automatisation industrielle, Industrie 4.0, Industrie 5.0, digitalisation, standardisation données, synchronisation PLM, synchronisation PDM, automatisation des flux, digital thread, jumeau numérique, traçabilité, conformité, transformation digitale, consulting industriel, innovation, intégration systèmes, API industrielle, XR, CAO, DXF, STEP, pipeline numérique, manufacturing, usine intelligente, supply chain digitale, automatisation processus, industrie du futur, plateforme digitale, interopérabilité, excellence opérationnelle, gestion de données techniques, performance industrielle">
+<meta name="author" content="Laurent Silan, AsciiMetric" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="fr" />
+<meta name="theme-color" content="#111111">
+<meta name="copyright" content="AsciiMetric" />
+<meta name="reply-to" content="info@asciimetric.com" />
+<meta name="rating" content="general" />
+<meta name="category" content="Industrie, Digitalisation, PLM, PDM, Automatisation, Consulting, Transformation numérique" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="MetricX – Solution PLM/PDM Industrie 4.0/5.0" />
+<meta property="og:title" content="METRICX | Solution industrielle PLM/PDM & automatisation – Industrie 4.0/5.0" />
+<meta property="og:description" content="Découvrez MetricX : la solution modulaire de référence pour l’automatisation, la standardisation et la traçabilité des données industrielles. Accélérez la digitalisation de vos processus, intégrez le digital thread et propulsez votre industrie vers l’excellence 4.0/5.0." />
+<meta property="og:url" content="https://asciimetric.com/metricx_FR_mobile_ready_offical.html" />
+<meta property="og:image" content="https://asciimetric.com/img/asciimetric_background.jpg" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="METRICX | Solution industrielle PLM, PDM, automatisation & standardisation" />
+<meta name="twitter:description" content="MetricX – Plateforme innovante pour la synchronisation, la traçabilité et la standardisation des flux industriels. L’outil clé pour réussir la transformation digitale et l’intégration PLM/PDM de votre industrie." />
+<meta name="twitter:image" content="https://asciimetric.com/img/asciimetric_background.jpg" />
+<meta name="twitter:site" content="@AsciiMetric" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="canonical" href="https://asciimetric.com/metricx_FR_mobile_ready_offical.html" />
+<link type="text/css" rel="stylesheet" href="../../css/reset.css">
+<link type="text/css" rel="stylesheet" href="../../css/plugins.css">
+<link type="text/css" rel="stylesheet" href="../../css/style.css">     
+<link type="text/css" rel="stylesheet" href="../../css/lorenz_style.css"> 
+<link type="text/css" rel="stylesheet" href="../../css/style-dark2025.css">      
+<link rel="shortcut icon" href="../../images/MetricX_logo.png">
+
+<style>
+/* PATCH MOBILE VISUAL AND NAVIGATION */
+@media (max-width: 700px) {
+  .column-image {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: auto !important;
+    max-height: 140px !important;
+    margin: 0 auto 16px auto !important;
+    padding: 0 !important;
+    position: static !important;
+    overflow: visible !important;
+    z-index: 0 !important;
+  }
+  .overlay {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+  }
+  .column-title {
+    display: none !important;
+  }
+  #metricx-canvas {
+    display: none !important;
+  }
+  .fixed-column-dec {
+    display: none !important;
+  }
+  .scroll-nav-wrap {
+    position: fixed !important;
+    left: 0; bottom: 0;
+    width: 100vw;
+    z-index: 9999;
+    background: #181C20;
+    border-top: 1.5px solid #333;
+    box-shadow: 0 0 16px #0005;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .scroll-nav {
+    margin-bottom: 0 !important;
+  }
+  .scroll-nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.09em !important;
+    gap: 0.4em;
+  }
+  .scroll-nav ul li {
+    flex: 1 0 0px;
+    text-align: center;
+  }
+  .scroll-nav ul li a {
+    padding: 0.55em 0.6em !important;
+    border-radius: 6px;
+    color: #f7f9f9 !important;
+    font-weight: bold;
+    font-size: 1.06em;
+    display: block;
+  }
+  .scroll-nav ul li a.act-scrlink,
+  .scroll-nav ul li a:active {
+    background: #232323 !important;
+    color: #22BB66 !important;
+  }
+  .scroll-down-fixed {
+    display: none !important;
+  }
+  .moduleA-table-wrap, .moduleA-table {
+    font-size: 0.96em !important;
+    overflow-x: auto !important;
+    max-width: 100vw !important;
+  }
+  .moduleA-table th, .moduleA-table td {
+    min-width: 80px;
+    padding: 7px 6px !important;
+  }
+  section {
+    margin-bottom: 1.7em !important;
+  }
+  button, .btn-metricx, .btn-cad, .btn-dxf, .btn-stepx, .btn-xr {
+    width: 95%;
+    margin: 0 auto 0.6em auto !important;
+    display: block;
+    font-size: 1.08em !important;
+    padding: 11px 0 !important;
+  }
+  .serv-media {
+    margin-bottom: 0.7em !important;
+    margin-top: 0.7em !important;
+  }
+  /* Banner horizontal - adaptation mobile */
+  .metricx-banner-canvas-wrap {
+    max-width: 99vw !important;
+    min-width: 0 !important;
+    width: 99vw !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+  #metricx-banner-canvas {
+    width: 99vw !important;
+    min-width: 0 !important;
+    height: 74px !important;
+    max-height: 90px !important;
+    margin: 0 auto !important;
+    border-radius: 0 !important;
+    background: #000 !important;
+    display: block !important;
+  }
+}
+@media (max-width: 520px) {
+  .moduleA-table th, .moduleA-table td { font-size: 0.91em !important; }
+  #metricx-banner-canvas { height: 58px !important; max-height: 70px !important; }
+}
+</style>
+<script>
+// Helper : détecte si mobile (largeur < 700px ou userAgent mobile)
+function isMobileMetricX() {
+  return (window.innerWidth < 700) ||
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Désactive et retire metricx-canvas (vertical) sur mobile, active sur desktop
+function toggleMetricXCanvas() {
+  var isMob = isMobileMetricX();
+  var metricxCanvas = document.getElementById('metricx-canvas');
+  var metricxCanvasWrap = metricxCanvas ? metricxCanvas.parentNode : null;
+  // Sur mobile : retire le canvas vertical
+  if (isMob && metricxCanvas) {
+    metricxCanvas.width = 1; metricxCanvas.height = 1;
+    metricxCanvas.style.display = "none";
+    if (metricxCanvasWrap && metricxCanvasWrap.contains(metricxCanvas)) {
+      metricxCanvasWrap.removeChild(metricxCanvas);
+    }
+  }
+  // Sur desktop : remet le canvas vertical si absent
+  if (!isMob && !document.getElementById('metricx-canvas')) {
+    var wrap = document.querySelector('.metricx-canvas-container .overlay');
+    if (wrap) {
+      var newCanvas = document.createElement('canvas');
+      newCanvas.id = 'metricx-canvas';
+      newCanvas.style.width = "100%";
+      newCanvas.style.height = "100%";
+      wrap.appendChild(newCanvas);
+      if (typeof drawMetricXPipeline === 'function') drawMetricXPipeline();
+    }
+  }
+  // Banner horizontal : toujours visible, mais resize adapté via CSS
+  var banner = document.getElementById('metricx-banner-canvas');
+  if (banner) {
+    banner.style.display = "block";
+  }
+}
+window.addEventListener('DOMContentLoaded', function(){ toggleMetricXCanvas(); });
+window.addEventListener('resize', function(){ toggleMetricXCanvas(); });
+</script>
+</head>
+<body>
+    <div class="loader-wrap">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <div id="main">
+        <header class="main-header">
+            <a href="index.html" class="logo-holder"><img src="../../images/MetricX_logo.png" alt="AsciiMetric logo"></a>
+            <div class="search-button"><i class="far fa-search"></i></div>
+            <div class="sb-button"></div>
+            <div class="share-btn showshare"><i class="fal fa-megaphone"></i><span>Partager</span></div>
+            <div class="nav-button-wrap">
+                <div class="nav-button"><span></span><span></span><span></span></div>
+            </div>
+            <div class="nav-holder main-menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">ACCUEIL</a></li>
+                        <li><a href="../../EN.html">EN</a></li>
+                        <li><a href="../../services.html" target="_blank">SERVICES</a></li>
+                        <li><a href="mailto:info@asciimetric.com" target="_blank">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="wrapper">
+            <div class="fixed-column-dec"></div>
+            <div class="column-image">
+                <div class="overlay">
+                    <!-- Pipeline vertical (canvas) - supprimé sur mobile -->
+                    <canvas id="metricx-canvas"></canvas>
+                </div>
+            </div>
+            <div class="fixed-column-dec"></div>
+            <div class="column-wrapper">
+                <!-- NAVIGATION sticky en bas sur mobile -->
+                <div class="scroll-nav-wrap">
+                    <nav class="scroll-nav scroll-init">
+                        <ul>
+                            <li><a class="act-scrlink" href="#moduleA">WAPI</a></li>
+                            <li><a href="#moduleB">CAO</a></li>
+                            <li><a href="#moduleC">DXF Extract</a></li>
+                            <li><a href="#moduleD">STEP Map</a></li>
+                            <li><a href="#moduleE">XR</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- === Place ici tous tes modules A, B, C, D, E en FRANÇAIS === -->
+                <!--#include virtual="modules/moduleA-fr.html" -->
+                <!--#include virtual="modules/moduleB-fr.html" -->
+                <!-- etc. -->
+            <!-- SECTION INTRO + Banner horizontal interactif -->
+            <section id="sec1">
+              <div class="container small-container">
+                <div class="section-title fl-wrap" style="text-align:center;">
+                    <!-- Banner MetricX : pipeline horizontal, responsive & interactif -->
+                    <div class="metricx-banner-canvas-wrap" style="width:100%;max-width:780px;margin:0 auto 2em auto; background:#000;">
+                      <canvas id="metricx-banner-canvas" width="760" height="128" style="width:100%;height:auto;display:block;background:#000;border-radius:8px;"></canvas>
+                    </div>
+                    <script>
+                    // Palette MetricX
+                    const M_ORANGE = '#FF6A00', M_DARK = '#000', M_GRAY = '#CCCCCC', M_WHITE = '#FFFFFF',
+                          M_BLUE = '#0078D7', M_GREEN = '#22BB66', M_PINK = '#FF51C2';
+                    // Modules (A-E)
+                    const MODS = [
+                      { color: M_GREEN, label: 'A', name: 'WAPI', sub: 'PLM/PDM', sectionId: 'moduleA' },
+                      { color: M_GREEN, label: 'B', name: 'CAO', sub: 'Validation', sectionId: 'moduleB' },
+                      { color: M_ORANGE, label: 'C', name: 'DXF', sub: 'Extract 2D', sectionId: 'moduleC' },
+                      { color: M_PINK, label: 'D', name: 'STEP', sub: 'Map 3D', sectionId: 'moduleD' },
+                      { color: M_BLUE, label: 'E', name: 'XR', sub: 'Export', sectionId: 'moduleE' }
+                    ];
+                    let bannerNodes = [];
+                    let hovered = -1;
+                    function drawBannerMetricX() {
+                      const canvas = document.getElementById('metricx-banner-canvas');
+                      if (!canvas) return;
+                      const ctx = canvas.getContext('2d');
+                      // Responsive
+                      const W = canvas.width = Math.floor(canvas.offsetWidth || 360);
+                      const isMobile = window.innerWidth < 700;
+                      const minH = isMobile ? 58 : 90;
+                      const maxH = isMobile ? 74 : 128;
+                      const H = canvas.height = Math.max(minH, Math.min(W/6.1, maxH));
+                      ctx.clearRect(0, 0, W, H);
+                      ctx.save();
+                      ctx.fillStyle = M_DARK;
+                      ctx.fillRect(0, 0, W, H);
+
+                      // Pipeline horizontal
+                      ctx.save();
+                      ctx.beginPath();
+                      ctx.moveTo(70, H/2);
+                      ctx.lineTo(W-70, H/2);
+                      ctx.lineWidth = isMobile ? 18 : 34;
+                      ctx.strokeStyle = "#232323";
+                      ctx.globalAlpha = 0.17;
+                      ctx.shadowColor = M_ORANGE;
+                      ctx.shadowBlur = 16;
+                      ctx.stroke();
+                      ctx.restore();
+
+                      // Modules sur pipeline
+                      const n = MODS.length;
+                      const step = (W-140)/(n-1);
+                      const nodeR = isMobile ? Math.max(18, Math.min(H/2.8, 25)) : Math.max(32, Math.min(H/2.85, 46));
+                      const t = Date.now()*0.001;
+                      let mouse = window.metricx_banner_mouse || {x:-999, y:-999};
+                      bannerNodes = [];
+                      hovered = -1;
+                      for (let i=0; i<n; i++) {
+                        const x = 70 + i*step, y = H/2;
+                        bannerNodes.push({x, y, r: nodeR, sectionId: MODS[i].sectionId});
+
+                        // Hover detection
+                        let dx = mouse.x-x, dy = mouse.y-y;
+                        let dist = Math.sqrt(dx*dx+dy*dy);
+                        let isHover = (dist < nodeR+17);
+                        if (isHover) hovered = i;
+
+                        // Halo animé + hover
+                        ctx.save();
+                        ctx.beginPath();
+                        const pulse = isMobile ? 2 + 1*Math.sin(t*1.2 + i) : 7 + 2.7*Math.sin(t*1.2 + i);
+                        ctx.arc(x, y, nodeR+pulse+(isHover?6:0), 0, Math.PI*2);
+                        ctx.globalAlpha = isMobile ? 0.13 : 0.15 + 0.18*Math.abs(Math.sin(t + i)) + (isHover?0.11:0);
+                        ctx.strokeStyle = MODS[i].color;
+                        ctx.shadowBlur = isMobile ? 5 : 14 + (isHover?11:0);
+                        ctx.shadowColor = MODS[i].color;
+                        ctx.lineWidth = isMobile ? 5 : 8 + (isHover?2:0);
+                        ctx.stroke();
+                        ctx.restore();
+                        // Main node
+                        ctx.save();
+                        ctx.beginPath();
+                        ctx.arc(x, y, nodeR+(isHover?3:0), 0, Math.PI*2);
+                        ctx.globalAlpha = 0.96;
+                        ctx.fillStyle = MODS[i].color;
+                        ctx.shadowColor = MODS[i].color;
+                        ctx.shadowBlur = isMobile ? 3 : 9 + (isHover?5:0);
+                        ctx.fill();
+                        ctx.restore();
+                        // Letter
+                        ctx.save();
+                        ctx.font = `bold ${isMobile ? 16 : (isHover?27:21)}px 'Montserrat',Arial`;
+                        ctx.textAlign = "center";
+                        ctx.textBaseline = "middle";
+                        ctx.globalAlpha = 0.98;
+                        ctx.fillStyle = M_WHITE;
+                        ctx.shadowColor = MODS[i].color;
+                        ctx.shadowBlur = isMobile ? 0 : 6 + (isHover?6:0);
+                        ctx.fillText(MODS[i].label, x, y-7);
+                        ctx.font = `bold ${isMobile ? 9.2 : 13}px 'Roboto',Arial`;
+                        ctx.shadowBlur = 0;
+                        ctx.globalAlpha = 0.90;
+                        ctx.fillText(MODS[i].name, x, y+8);
+                        ctx.font = `normal ${isMobile ? 7.5 : 11}px 'Roboto',Arial`;
+                        ctx.globalAlpha = 0.75;
+                        ctx.fillText(MODS[i].sub, x, y+18);
+                        ctx.restore();
+                        // Progress ring
+                        ctx.save();
+                        ctx.beginPath();
+                        const prog = Math.abs(Math.sin(t*0.7 + i));
+                        ctx.arc(x, y, nodeR+6 + (isHover?2:0), -Math.PI/2, -Math.PI/2 + prog*Math.PI*2, false);
+                        ctx.strokeStyle = MODS[i].color;
+                        ctx.globalAlpha = isMobile ? 0.19 : 0.37+0.18*prog;
+                        ctx.lineWidth = isMobile ? 2.3 : 3.8 + (isHover?1:0);
+                        ctx.shadowBlur = isMobile ? 0 : 7;
+                        ctx.shadowColor = MODS[i].color;
+                        ctx.stroke();
+                        ctx.restore();
+                      }
+                      // Flux animé (bulle qui circule)
+                      const fluxT = (Math.sin(t*0.55)+1)/2;
+                      const fluxX = 70 + (W-140)*fluxT;
+                      ctx.save();
+                      ctx.beginPath();
+                      ctx.arc(fluxX, H/2, isMobile ? 7 : 14, 0, Math.PI*2);
+                      ctx.globalAlpha = isMobile ? 0.73 : 0.83;
+                      ctx.fillStyle = "#fff";
+                      ctx.shadowColor = M_ORANGE;
+                      ctx.shadowBlur = isMobile ? 2 : 10;
+                      ctx.fill();
+                      // Mini JSON
+                      ctx.font = `bold ${isMobile ? 6.7 : 10}px 'Consolas',monospace`;
+                      ctx.fillStyle = "#181818";
+                      ctx.globalAlpha = 0.74;
+                      ctx.textAlign = "center";
+                      ctx.fillText('{ "flow": "ok" }', fluxX, H/2+(isMobile?10:24));
+                      ctx.restore();
+
+                      ctx.restore();
+                      requestAnimationFrame(drawBannerMetricX);
+                    }
+                    window.metricx_banner_mouse = {x:-999, y:-999};
+                    window.addEventListener('DOMContentLoaded', function() {
+                      drawBannerMetricX();
+                      window.addEventListener('resize', drawBannerMetricX);
+                      const canvas = document.getElementById('metricx-banner-canvas');
+                      if (!canvas) return;
+                      canvas.addEventListener('mousemove', function(e){
+                        const rect = canvas.getBoundingClientRect();
+                        const ratioX = canvas.width/rect.width, ratioY=canvas.height/rect.height;
+                        window.metricx_banner_mouse = {
+                          x: (e.clientX-rect.left)*ratioX,
+                          y: (e.clientY-rect.top)*ratioY
+                        };
+                      });
+                      canvas.addEventListener('mouseleave', function(){
+                        window.metricx_banner_mouse = {x:-999, y:-999};
+                      });
+                      canvas.addEventListener('mousedown', function(e){
+                        if (e.button !== 0) return;
+                        const mouse = window.metricx_banner_mouse;
+                        for (let i=0; i<bannerNodes.length; i++){
+                          let n = bannerNodes[i];
+                          let dx = mouse.x-n.x, dy = mouse.y-n.y;
+                          if (Math.sqrt(dx*dx+dy*dy) < n.r+19) {
+                            if (n.sectionId && document.getElementById(n.sectionId)) {
+                              document.getElementById(n.sectionId).scrollIntoView({behavior:"smooth", block:"start"});
+                            }
+                            break;
+                          }
+                        }
+                      });
+                    });
+                    </script>
+                    <h3>Modules MetricX</h3>
+                    <h4>Automatisation des Données Industrielles – Aperçu interactif de l’architecture</h4>
+                    
+                </div>
+                <div class="column-wrapper_text fl-wrap" style="text-align:center;">
+                    <p>
+                        <b>MetricX</b> rassemble une gamme de modules spécialisés permettant de fluidifier, sécuriser et automatiser les flux de données industrielles. Cette page vous offre un aperçu complet du projet MetricX : découvrez l’architecture modulaire, suivez l’état d’avancement des différentes briques (PLM/PDM, CAO, DXF, STEP, XR) et comprenez comment chaque composant contribue à la digitalisation et à l’efficacité de vos processus industriels.
+                    </p>
+                    <p>
+                        De la <b>synchronisation sécurisée PLM/ERP</b> (WAPI), à la <b>validation des données CAO</b>, au <b>mapping 2D/3D</b> et à l’<b>export XR-ready</b>, chaque module répond à une étape clé de votre parcours Industrie 4.0. MetricX garantit <b>traçabilité</b>, <b>standardisation</b> et <b>automatisation</b> pour une innovation durable.
+                    </p>
+                    <p>
+                        <b>Découvrez nos modules :</b><br>
+                        <span style="color:#22BB66;">A – WAPI</span> : Synchronisation bidirectionnelle sécurisée<br>
+                        <span style="color:#22BB66;">B – CAO</span> : Traitement & validation des fichiers CAO natifs<br>
+                        <span style="color:#F98C2B;">C – DXF Extract</span> : Extraction automatisée des entités 2D<br>
+                        <span style="color:#FF51C2;">D – STEP Map</span> : Mapping 2D/3D & digital thread<br>
+                        <span style="color:#0078D7;">E – XR</span> : Export & visualisation pour plateformes XR/3D
+                    </p>
+                    <p style="margin-top:1.3em;">
+                        <b>Prêt à commencer ?</b> Utilisez la barre de navigation ci-dessous pour explorer chaque module et voir MetricX en action !
+                    </p>
+                </div>
+              </div>
+            </section>
+
+                                 <!-- MODULE A – WAPI (Design homogène, texte clair, alignement pro, bouton en fin de bloc) -->
+             <section id="sec1">
+    <div class="container small-container">
+        <div class="section-title fl-wrap" style="text-align:center;">
+        <img src="images\MetricX_logo.png" alt="Logo MetricX" style="width:50px;height:50px;margin-bottom:1em;"/>
+
+        <h3>Bienvenue dans la Suite MetricX Solution</h3>
+        <h4>Automatisation des Données Industrielles – Découvrez tous les Modules</h4>
+        <div class="section-number">INTRO.</div>
+    </div>
+    <div class="column-wrapper_text fl-wrap" style="text-align:center;">
+        <p>
+            <b>MetricX</b> regroupe une série de modules spécialisés conçus pour fluidifier et sécuriser vos flux de données industrielles. Notre vision : permettre aux industriels de tirer pleinement parti de la <b>transformation digitale</b> grâce à des solutions modulaires et interopérables.
+        </p>
+        <p>
+            De la <b>synchronisation sécurisée PLM/ERP</b> (WAPI), à la <b>validation des données CAO</b>, au <b>mapping 2D/3D</b> et à l’<b>export XR-ready</b>, chaque module répond à une étape clé de votre parcours Industrie 4.0. MetricX garantit <b>traçabilité</b>, <b>standardisation</b> et <b>automatisation</b> pour une innovation durable.
+        </p>
+        <p>
+            <b>Découvrez nos modules :</b><br>
+            <span style="color:#22BB66;">A – WAPI</span> : Synchronisation bidirectionnelle sécurisée<br>
+            <span style="color:#22BB66;">B – CAO</span> : Traitement & validation des fichiers CAO natifs<br>
+            <span style="color:#F98C2B;">C – DXF Extract</span> : Extraction automatisée des entités 2D<br>
+            <span style="color:#FF51C2;">D – STEP Map</span> : Mapping 2D/3D & digital thread<br>
+            <span style="color:#0078D7;">E – XR</span> : Export & visualisation pour plateformes XR/3D
+        </p>
+        <p style="margin-top:1.3em;">
+            <b>Prêt à commencer ?</b> Utilisez la barre de navigation ci-dessous pour explorer chaque module et voir MetricX en action !
+        </p>
+    </div>
+    </div>
+</section>
+                                <section id="moduleA">
+    <div class="container small-container">
+        <div class="section-title fl-wrap">
+            <h3>Module A – WAPI PLM / PDM</h3>
+            <h4>Industrial Data Synchronization API</h4>
+            <div class="section-number">A.</div>
+        </div>
+        <div class="column-wrapper_text fl-wrap">
+            <div class="serv-media">
+                <img src="../../images/services/module_a_wapi.png" alt="Industrial Data Synchronization" style="width:175px;height:175px;margin-bottom:1em;">
+            </div>
+            <p style="color:#e9f9e2;">
+               <b><span style="color:#22BB66;">Module A – WAPI </span></b> (<i><span style="color:#22BB66;">Web API Industrial</span></i>)<br>
+        est la passerelle universelle et sécurisée pour la synchronisation bidirectionnelle des données industrielles entre vos systèmes
+        (<b><span style="color:#22BB66;">PLM, PDM, ERP, MES</span></b>) et le pipeline <span style="color:#22BB66; font-weight:bold;">MetricX</span>.<br>
+        Il garantit la <span style="color:#22BB66; font-weight:bold;">fiabilité</span>, la <span style="color:#22BB66; font-weight:bold;">traçabilité</span>, la <span style="color:#22BB66; font-weight:bold;">standardisation</span> et l’automatisation des flux d’informations techniques industriels.
+            </p>
+            <br><br><br><br><br><br>
+            <p>
+            <ul class="wapi-bullet-green" style="color:#e9f9e2; text-align:left;">
+    <li>Connexion sécurisée aux systèmes PLM/ERP (<b>OAuth2</b>, gestion des droits, journalisation des accès, logs d’activité).</li>
+    <li>Standardisation des données en <b>JSON métier</b> : nomenclatures, statuts, attributs, révisions, références croisées.</li>
+    <li>Détection automatique des changements : synchronisation incrémentale, gestion des conflits, versioning, alertes temps réel.</li>
+    <li>Traçabilité et audit aisés : chaque transaction est loguée, horodatée, exportable pour conformité réglementaire.</li>
+    <li>Supervision en temps réel : dashboard live, suivi du taux de synchro, statistiques, alertes et remontées d’anomalies.</li>
+    <li>Interopérabilité totale : API RESTful documentée, compatible avec tous les standards industriels du marché.</li>
+</ul>
+        </p>
+            <!-- BOUTON EN FIN DE SECTION -->
+            <div style="margin-top:1.6em;text-align:right;">
+                <button id="toggle-wapi-log" aria-expanded="false" aria-controls="wapi-log-panel"
+                  class="btn-metricx">
+                  📊 Voir le dernier log d'audit technique
+                </button>
+            </div>
+        </div>
+        <!-- PANEL CACHE PAR DÉFAUT -->
+        <div id="wapi-log-panel" class="wapi-log-panel" style="display:none;">
+            <div class="fl-wrap" style="margin:2em 0 1em 0;">
+              <h4 style="text-align:center; color:#e9f9e2;">Performance du Service</h4>
+              <div class="bar-row">
+                <span>Synchronisation PLM :</span>
+                <div class="bar"><div class="bar-fill" style="width:55%"></div></div>
+                <span class="bar-value">55%</span>
+              </div>
+              <div class="bar-row">
+                <span>Standardisation JSON :</span>
+                <div class="bar"><div class="bar-fill" style="width:100%"></div></div>
+                <span class="bar-value">100%</span>
+              </div>
+              <div class="bar-row">
+                <span>Auditabilité / Traçabilité :</span>
+                <div class="bar"><div class="bar-fill" style="width:97%"></div></div>
+                <span class="bar-value">97%</span>
+              </div>
+            </div>
+            <div class="fl-wrap moduleA-table-wrap">
+              <h4 style="text-align:center; color:#e9f9e2;">Tableau de synthèse (exemple live)</h4>
+              <div style="overflow-x:auto;">
+                <table class="moduleA-table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Type de Sync</th>
+                      <th>Objet</th>
+                      <th>Résultat</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2025-06-05 14:46</td>
+                      <td>PLM → JSON</td>
+                      <td>part: A-321 / rev: B</td>
+                      <td class="ok">✅ OK</td>
+                    </tr>
+                    <tr>
+                      <td>2025-06-05 14:48</td>
+                      <td>ERP → JSON</td>
+                      <td>order: 458FZ</td>
+                      <td class="ok">✅ OK</td>
+                    </tr>
+                    <tr>
+                      <td>2025-06-05 14:50</td>
+                      <td>PLM → JSON</td>
+                      <td>part: B-233 / rev: D</td>
+                      <td class="warning">⚠️ Warning</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="fl-wrap moduleA-json-wrap">
+              <b style="color:#e9f9e2;">Exemple JSON transféré :</b>
+              <pre class="moduleA-json" style="color:#22BB66;">
+{ "part": "A-321", "rev": "B", "status": "synced" }
+              </pre>
+            </div>
+            <div class="fl-wrap moduleA-center moduleA-laststats" style="color:#e9f9e2;">
+              <span><b>Dernière entité reçue :</b> <span class="entity">GEOM_X</span></span>
+              <span style="margin-left:2em;"><b>Taux de synchronisation :</b> <span class="stat">55%</span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Ajoute ce JS (ou garde-le en fin de page) -->
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btn = document.getElementById('toggle-wapi-log');
+  var panel = document.getElementById('wapi-log-panel');
+  if(btn && panel){
+    btn.addEventListener('click', function(){
+      var visible = panel.style.display !== 'none' && panel.style.display !== '';
+      panel.style.display = visible ? 'none' : 'block';
+      btn.setAttribute('aria-expanded', !visible);
+      btn.textContent = visible ?
+        '📊 Voir le dernier log d\'audit technique' :
+        '✖ Fermer le log d\'audit technique';
+      if (!visible) {
+        panel.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    });
+  }
+});
+</script>
+<!-- Design bar, table, etc doit rester identique à celui du module B, mais assure-toi que toutes les couleurs de texte sont #e9f9e2 ou #22BB66 sur fond foncé. -->
+<style>
+/* Design homogène, texte clair sur fond sombre */
+#moduleA p, #moduleA ul, #moduleA li, #moduleA th, #moduleA td, #moduleA h4, #moduleA b {
+    color: #e9f9e2 !important;
+}
+#moduleA .btn-metricx {
+    background:#22BB66;
+    color:#fff;
+    border:none;
+    border-radius:7px;
+    padding:10px 22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 2px 12px #22bb6622;
+    transition:background 0.2s;
+    font-size:1em;
+}
+#moduleA .btn-metricx:hover { background:#1e9b4e; }
+#moduleA .bar-row {
+    display:flex;
+    align-items:center;
+    gap:1em;
+    margin-bottom:1.2em;
+    justify-content:center;
+}
+#moduleA .bar-row span { color:#e9f9e2; font-weight:bold; min-width:180px; }
+#moduleA .bar {
+    background:#232323;
+    border-radius:6px;
+    overflow:hidden;
+    width:240px;
+    height:18px;
+    margin-right:0.6em;
+}
+#moduleA .bar-fill {
+    background:#22BB66;
+    height:100%;
+    transition:width 1s;
+}
+#moduleA .bar-value {
+    color:#22BB66;
+    font-weight:bold;
+    min-width:42px;
+    text-align:right;
+}
+#moduleA .moduleA-table-wrap { margin:2em auto; width:95%; max-width:700px; }
+#moduleA .moduleA-table {
+    width:100%; min-width:360px;
+    background:#161616;
+    border-radius:8px;
+    box-shadow:0 2px 8px #0002;
+    color: #e9f9e2;
+}
+#moduleA .moduleA-table th, #moduleA .moduleA-table td {
+    padding: 8px;
+    text-align: left;
+}
+#moduleA .moduleA-table thead {
+    background:#222;
+    color:#22BB66;
+}
+#moduleA .moduleA-table .ok { color:#22BB66; }
+#moduleA .moduleA-table .warning { color:#F9CA43; }
+#moduleA .moduleA-json {
+    background:#181C20;
+    color:#22BB66;
+    font-size:1em;
+    border-radius:7px;
+    padding:12px 18px;
+    margin-top:0.5em;
+    overflow:auto;
+}
+#moduleA .entity { color: #22BB66; }
+#moduleA .stat { color: #22BB66; }
+@media (max-width: 900px) {
+  #moduleA .bar { width: 50vw; min-width: 80px; max-width: 230px;}
+  #moduleA .moduleA-table-wrap, #moduleA .moduleA-json-wrap { max-width: 100vw; }
+}
+@media (max-width: 600px) {
+  #moduleA .moduleA-json { font-size: 0.93em !important; }
+  #moduleA .bar { width: 33vw; min-width: 50px; max-width: 150px;}
+}
+
+.wapi-bullet-green li:before {
+  content: "•";
+  position: absolute;
+  Left: -10px;
+  color: #22BB66;
+  font-weight: bold;
+  font-size: 1.5
+  em;
+}
+</style>
+
+<div class="sec-dec"></div>
+
+<section id="moduleB">
+    <div class="container small-container">
+        <div class="section-title fl-wrap">
+            <h3>Module B – CAO</h3>
+            <h4>Traitement & Validation des Données CAO</h4>
+            <div class="section-number">B.</div>
+        </div>
+        <div class="column-wrapper_text fl-wrap">
+            <div class="serv-media">
+                <img src="../../images/services/module_B_cad.png" alt="Traitement Données CAO" style="width:175px;height:175px;margin-bottom:1em;">
+            </div>
+            <p style="color:#e9f9e2;">
+                <b><span style="color:#22BB66;">Module B – CAO</span></b> (<i><span style="color:#22BB66;">Traitement & Validation des Données CAO</span></i>)<br>
+                Assure l’ingestion, la validation et la structuration des fichiers natifs CAO : extraction des géométries, métadonnées, pièces, assemblages et couches techniques. Contrôle qualité automatique et préparation des données pour les étapes de mapping et d’export.<br>
+                <b>Ce module est connecté au Module A (WAPI) pour l’automatisation des workflows PLM/PDM, avec connexion directe possible à Windchill et autres solutions PLM leaders.</b>
+            </p><br><br><br><br><br>
+            <ul class="wapi-bullet-green" style="color:#e9f9e2; text-align:left;">
+                <li>Support multi-CAO : <b>PTC Creo (Pro/ENGINEER Wildfire), CATIA, SolidWorks, Siemens NX, SolidEdge, Autodesk Inventor…</b></li>
+                <li>Formats de fichiers compatibles : <b>.prt, .asm, .drw, .catpart, .catproduct, .sldprt, .sldasm, .par, .asm, .ipt, .iam, .dxf, .step (.stp), .iges, .json</b></li>
+                <li>Décomposition & validation : extraction des pièces, sous-ensembles, profils, features, attributs métier.</li>
+                <li>Vérification automatique de la cohérence géométrique et des attributs (contrôles métiers, règles client).</li>
+                <li>Enrichissement des entités : attribution d’UID, normalisation, mapping de nomenclature, export des métadonnées techniques.</li>
+                <li>Export & intégration : <b>DXF, STEP et JSON enrichi</b> pour le traitement aval et l’interopérabilité avec PLM/PDM (ex : Windchill, Teamcenter, 3DEXPERIENCE, SAP PLM…)</li>
+            </ul>
+            <div style="margin-top:1.6em;text-align:right;">
+                <button id="toggle-cad-details" aria-expanded="false" aria-controls="cad-details-panel"
+                  class="btn-cad">
+                  📊 Voir les logiciels & formats compatibles (Module B)
+                </button>
+            </div>
+        </div>
+        <div id="cad-details-panel" class="wapi-log-panel" style="display:none;">
+            <div class="fl-wrap" style="margin:2em 0 1em 0;">
+              <h4 style="text-align:center; color:#e9f9e2;">Module B – Matrice de compatibilité & intégration</h4>
+              <div class="fl-wrap moduleA-table-wrap">
+                <h4 style="text-align:center; color:#e9f9e2;">Logiciels CAO & formats pris en charge</h4>
+                <div style="overflow-x:auto;">
+                  <table class="moduleA-table">
+                    <thead>
+                      <tr>
+                        <th>Logiciel</th>
+                        <th>Formats natifs</th>
+                        <th>Formats exportés</th>
+                        <th>Intégration PLM/PDM</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>PTC Creo (Pro/ENGINEER)</td>
+                        <td>.prt, .asm, .drw</td>
+                        <td>.step, .dxf, .json</td>
+                        <td>Windchill (optionnel)</td>
+                      </tr>
+                      <tr>
+                        <td>CATIA</td>
+                        <td>.catpart, .catproduct</td>
+                        <td>.step, .dxf, .json</td>
+                        <td>3DEXPERIENCE, Standalone</td>
+                      </tr>
+                      <tr>
+                        <td>SolidWorks</td>
+                        <td>.sldprt, .sldasm</td>
+                        <td>.step, .dxf, .json</td>
+                        <td>Standalone</td>
+                      </tr>
+                      <tr>
+                        <td>Siemens NX</td>
+                        <td>.prt</td>
+                        <td>.step, .dxf, .json</td>
+                        <td>Teamcenter, Standalone</td>
+                      </tr>
+                      <tr>
+                        <td>SolidEdge</td>
+                        <td>.par, .asm</td>
+                        <td>.step, .dxf, .json</td>
+                        <td>Standalone</td>
+                      </tr>
+                      <tr>
+                        <td>Autodesk Inventor</td>
+                        <td>.ipt, .iam</td>
+                        <td>.step, .dxf, .json</td>
+                        <td>Standalone</td>
+                      </tr>
+                      <tr>
+                        <td>Générique 2D/3D</td>
+                        <td>.dxf, .step, .iges</td>
+                        <td>.json</td>
+                        <td>Universel</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="fl-wrap moduleA-json-wrap">
+                <b style="color:#e9f9e2;">Exemple JSON d'entité extraite :</b>
+                <pre class="moduleA-json" style="color:#22BB66;">
+{ "cad": "SolidEdge", "layer": "2D", "entity": "Profile_AZ" }
+                </pre>
+              </div>
+              <div class="fl-wrap moduleA-center moduleA-laststats" style="color:#e9f9e2;">
+                <span><b>Extraction en cours :</b> <span class="stat">90%</span></span>
+                <span style="margin-left:2em;"><b>Dernière entité validée :</b> <span class="entity">LAYER_2</span></span>
+              </div>
+              <div class="fl-wrap" style="margin:1.7em 0 0 0; color:#e9f9e2;">
+                <h4 style="text-align:center; color:#e9f9e2;">Connexion directe avec le module WAPI & PLM/PDM</h4>
+                <ul style="color:#e9f9e2; text-align:left;">
+                  <li>Automatisation des transferts de données CAO via l’API WAPI (Module A) : fiabilité, audit, traçabilité.</li>
+                  <li>Connexion directe avec Windchill, Teamcenter et autres solutions PLM pour synchronisation, gestion de configuration et cycle de vie produit.</li>
+                  <li>Interopérabilité native avec STEP, DXF, JSON pour tout le pipeline MetricX.</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btnB = document.getElementById('toggle-cad-details');
+  var panelB = document.getElementById('cad-details-panel');
+  if(btnB && panelB){
+    btnB.addEventListener('click', function(){
+      var visible = panelB.style.display !== 'none' && panelB.style.display !== '';
+      panelB.style.display = visible ? 'none' : 'block';
+      btnB.setAttribute('aria-expanded', !visible);
+      btnB.textContent = visible ?
+        '📊 Voir les logiciels & formats compatibles (Module B)' :
+        '✖ Fermer les logiciels & formats compatibles (Module B)';
+      if (!visible) {
+        panelB.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    });
+  }
+});
+</script>
+<style>
+#moduleB p, #moduleB ul, #moduleB li, #moduleB th, #moduleB td, #moduleB h4, #moduleB b {
+    color: #e9f9e2 !important;
+}
+#moduleB .btn-cad {
+    background:#22BB66;
+    color:#fff;
+    border:none;
+    border-radius:7px;
+    padding:10px 22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 2px 12px #22bb6622;
+    transition:background 0.2s;
+    font-size:1em;
+}
+#moduleB .btn-cad:hover { background:#1e9b4e; }
+#moduleB .moduleA-table-wrap { margin:2em auto; width:95%; max-width:700px; }
+#moduleB .moduleA-table {
+    width:100%; min-width:360px;
+    background:#161616;
+    border-radius:8px;
+    box-shadow:0 2px 8px #0002;
+    color: #e9f9e2;
+}
+#moduleB .moduleA-table th, #moduleB .moduleA-table td {
+    padding: 8px;
+    text-align: left;
+}
+#moduleB .moduleA-table thead { background:#222; color:#22BB66; }
+#moduleB .moduleA-table .ok { color:#22BB66; }
+#moduleB .moduleA-table .warning { color:#F9CA43; }
+#moduleB .moduleA-json {
+    background:#181C20;
+    color:#22BB66;
+    font-size:1em;
+    border-radius:7px;
+    padding:12px 18px;
+    margin-top:0.5em;
+    overflow:auto;
+}
+#moduleB .entity { color: #22BB66; }
+#moduleB .stat { color: #22BB66; }
+@media (max-width: 900px) {
+  #moduleB .moduleA-table-wrap, #moduleB .moduleA-json-wrap { max-width: 100vw; }
+}
+@media (max-width: 600px) {
+  #moduleB .moduleA-json { font-size: 0.93em !important; }
+}
+.wapi-bullet-green { list-style: none; margin: 0; padding: 0; }
+.wapi-bullet-green li { position: relative; padding-left: 1.4em; margin-bottom: 0.5em;}
+.wapi-bullet-green li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #22BB66;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+</style>
+<div class="sec-dec"></div>
+
+<section id="moduleC">
+    <div class="container small-container">
+        <div class="section-title fl-wrap">
+            <h3>Module C – DXF Extract</h3>
+            <h4>Automated Extraction of 2D Entities</h4>
+            <div class="section-number">C.</div>
+        </div>
+        <div class="column-wrapper_text fl-wrap">
+            <div class="serv-media">
+                <img src="../../images/services/module_c_dxf.png" alt="DXF Extraction" style="width:175px;height:175px;margin-bottom:1em;">
+            </div>
+            <p style="color:#e9f9e2;">
+                <b><span style="color:#F98C2B;">Module C – DXF Extract</span></b> (<i><span style="color:#F98C2B;">2D Entity Automation</span></i>)<br>
+                Automatise l’analyse des plans 2D (<span style="color:#F98C2B;font-weight:bold;">DXF</span> : AutoCAD, DraftSight…) pour extraire toutes les entités techniques (lignes, blocs, layers, annotations, etc). Chaque entité extraite est validée, nommée, puis convertie en <span style="color:#F98C2B;font-weight:bold;">JSON</span> pour les étapes de mapping 3D ou d’export XR.
+            </p><br><br><br><br><br><br><br><br>
+            <ul class="wapi-bullet-orange" style="color:#e9f9e2; text-align:left;">
+                <li><span style="color:#F98C2B;font-weight:bold;">Parsing DXF intelligent</span> : layers, blocks, polylines, textes, attributs.</li>
+                <li><span style="color:#F98C2B;font-weight:bold;">OCR avancé</span> pour plans scannés ou textes non standardisés.</li>
+                <li><span style="color:#F98C2B;font-weight:bold;">Validation et enrichissement</span> : géométrie, détection métiers (zones, cotes, symboles…)</li>
+                <li><span style="color:#F98C2B;font-weight:bold;">Export JSON standardisé</span> pour chaque entité détectée (prêt pour le mapping ou l’IA de contrôle).</li>
+            </ul>
+            <div style="margin-top:1.6em;text-align:right;">
+                <button id="toggle-dxf-perf" aria-expanded="false" aria-controls="dxf-perf-panel"
+                  class="btn-dxf">
+                  📊 Voir le bulletin de performance DXF
+                </button>
+            </div>
+        </div>
+        <!-- PANEL CACHE PAR DÉFAUT -->
+        <div id="dxf-perf-panel" class="wapi-log-panel" style="display:none;">
+            <div class="fl-wrap" style="margin:2em 0 1em 0;">
+              <h4 style="text-align:center; color:#e9f9e2;">Bulletin de performance DXF (rapport 2025-06-05)</h4>
+              <div class="bar-row">
+                <span>Entités géométriques détectées :</span>
+                <div class="bar"><div class="bar-fill" style="width:89%;background:#F98C2B;"></div></div>
+                <span class="bar-value" style="color:#F98C2B;">89%</span>
+              </div>
+              <div class="bar-row">
+                <span>Attributs métiers extraits :</span>
+                <div class="bar"><div class="bar-fill" style="width:76%;background:#F98C2B;"></div></div>
+                <span class="bar-value" style="color:#F98C2B;">76%</span>
+              </div>
+              <div class="bar-row">
+                <span>Reconnaissance OCR réussie :</span>
+                <div class="bar"><div class="bar-fill" style="width:95%;background:#F98C2B;"></div></div>
+                <span class="bar-value" style="color:#F98C2B;">95%</span>
+              </div>
+              <div class="bar-row">
+                <span>Enrichissement & validation :</span>
+                <div class="bar"><div class="bar-fill" style="width:82%;background:#F98C2B;"></div></div>
+                <span class="bar-value" style="color:#F98C2B;">82%</span>
+              </div>
+            </div>
+            <div class="fl-wrap moduleA-table-wrap">
+              <h4 style="text-align:center; color:#e9f9e2;">Exemples d’entités détectées</h4>
+              <div style="overflow-x:auto;">
+                <table class="moduleA-table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Type</th>
+                      <th>Nom</th>
+                      <th>Statut</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2025-06-05 14:54</td>
+                      <td>Block</td>
+                      <td>Block_42</td>
+                      <td class="ok" style="color:#F98C2B;">OK</td>
+                    </tr>
+                    <tr>
+                      <td>2025-06-05 14:56</td>
+                      <td>Profile</td>
+                      <td>Profile_AZ</td>
+                      <td class="ok" style="color:#F98C2B;">OK</td>
+                    </tr>
+                    <tr>
+                      <td>2025-06-05 14:57</td>
+                      <td>Part</td>
+                      <td>Part_1234</td>
+                      <td class="warning" style="color:#F9CA43;">⚠️ Attention</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="fl-wrap moduleA-json-wrap">
+              <b style="color:#e9f9e2;">Exemple JSON extrait :</b>
+              <pre class="moduleA-json" style="color:#F98C2B;">
+{ "type": "DXF", "entity": "Part_1234", "geometry": true, "ocr": "ok", "value": 87 }
+              </pre>
+            </div>
+            <div class="fl-wrap moduleA-center moduleA-laststats" style="color:#e9f9e2;">
+              <span><b>Dernière entité détectée :</b> <span class="entity" style="color:#F98C2B;">Block_42</span></span>
+              <span style="margin-left:2em;"><b>Taux d'extraction global :</b> <span class="stat" style="color:#F98C2B;">89%</span></span>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btnC = document.getElementById('toggle-dxf-perf');
+  var panelC = document.getElementById('dxf-perf-panel');
+  if(btnC && panelC){
+    btnC.addEventListener('click', function(){
+      var visible = panelC.style.display !== 'none' && panelC.style.display !== '';
+      panelC.style.display = visible ? 'none' : 'block';
+      btnC.setAttribute('aria-expanded', !visible);
+      btnC.textContent = visible ?
+        '📊 Voir le bulletin de performance DXF' :
+        '✖ Fermer le bulletin de performance DXF';
+      if (!visible) {
+        panelC.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    });
+  }
+});
+</script>
+<style>
+#moduleC p, #moduleC ul, #moduleC li, #moduleC th, #moduleC td, #moduleC h4, #moduleC b {
+    color: #e9f9e2 !important;
+}
+#moduleC .btn-dxf {
+    background:#F98C2B;
+    color:#fff;
+    border:none;
+    border-radius:7px;
+    padding:10px 22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 2px 12px #f98c2b44;
+    transition:background 0.2s;
+    font-size:1em;
+}
+#moduleC .btn-dxf:hover { background:#c85f00; }
+#moduleC .bar-row {
+    display:flex;
+    align-items:center;
+    gap:1em;
+    margin-bottom:1.2em;
+    justify-content:center;
+}
+#moduleC .bar-row span { color:#e9f9e2; font-weight:bold; min-width:180px; }
+#moduleC .bar {
+    background:#232323;
+    border-radius:6px;
+    overflow:hidden;
+    width:240px;
+    height:18px;
+    margin-right:0.6em;
+}
+#moduleC .bar-fill { background:#F98C2B !important; height:100%; transition:width 1s;}
+#moduleC .bar-value { color:#F98C2B !important; font-weight:bold; min-width:42px; text-align:right;}
+#moduleC .moduleA-table-wrap { margin:2em auto; width:95%; max-width:700px; }
+#moduleC .moduleA-table {
+    width:100%; min-width:360px;
+    background:#161616;
+    border-radius:8px;
+    box-shadow:0 2px 8px #0002;
+    color: #e9f9e2;
+}
+#moduleC .moduleA-table th, #moduleC .moduleA-table td {
+    padding: 8px;
+    text-align: left;
+}
+#moduleC .moduleA-table thead { background:#222; color:#F98C2B; }
+#moduleC .moduleA-table .ok { color:#F98C2B; }
+#moduleC .moduleA-table .warning { color:#F9CA43; }
+#moduleC .moduleA-json {
+    background:#181C20;
+    color:#F98C2B;
+    font-size:1em;
+    border-radius:7px;
+    padding:12px 18px;
+    margin-top:0.5em;
+    overflow:auto;
+}
+#moduleC .entity, #moduleC .stat { color: #F98C2B; }
+@media (max-width: 900px) {
+  #moduleC .bar { width: 50vw; min-width: 80px; max-width: 230px;}
+  #moduleC .moduleA-table-wrap, #moduleC .moduleA-json-wrap { max-width: 100vw; }
+}
+@media (max-width: 600px) {
+  #moduleC .moduleA-json { font-size: 0.93em !important; }
+  #moduleC .bar { width: 33vw; min-width: 50px; max-width: 150px;}
+}
+.wapi-bullet-orange { list-style: none; margin: 0; padding: 0; }
+.wapi-bullet-orange li { position: relative; padding-left: 1.4em; margin-bottom: 0.5em;}
+.wapi-bullet-orange li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #F98C2B;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+</style>
+<div class="sec-dec"></div>
+
+<section id="moduleD">
+    <div class="container small-container">
+        <div class="section-title fl-wrap">
+            <h3>Module D – STEP Map</h3>
+            <h4>2D to 3D Mapping & Data Association</h4>
+            <div class="section-number">D.</div>
+        </div>
+        <div class="column-wrapper_text fl-wrap">
+            <div class="serv-media">
+                <img src="../../images/services/step.png" alt="STEP Mapping" style="width:175px;height:175px;margin-bottom:1em;">
+            </div>
+            <p style="color:#e9f9e2;">
+                <b><span style="color:#FF51C2;">Module D – STEP Map</span></b> (<i><span style="color:#FF51C2;">3D Digital Thread Automation</span></i>)<br>
+                Génère un mapping enrichi et automatisé entre les entités 2D détectées (issues du module C) et les objets 3D du modèle CAO (<span style="color:#FF51C2;font-weight:bold;">STEP, IFC, natif</span>). Ce module produit un fichier spécialement formaté pour la <span style="color:#FF51C2;font-weight:bold;">performance</span> en automatisation de processus et la <span style="color:#FF51C2;font-weight:bold;">capacité XR</span> avancée, grâce à la gestion précise des coordonnées <b>X, Y, Z</b> et à la connexion dynamique avec l’axe Z. Il assure une <span style="color:#FF51C2;font-weight:bold;">digital thread</span> complète, la traçabilité optimale et une exploitation directe des données pour la XR, le jumeau numérique et la simulation. <br><br><br><br><br>
+                <span style="color:#FF51C2;">Exemple : pièce <b>M0165-05-0001-01</b> — analyse approfondie et communication sur l’axe <b>Z</b> pour l’intégration automatisée et la conformité technique.</span>
+            </p>
+
+            <ul class="step-bullet-pink" style="color:#e9f9e2; text-align:left;">
+                <li><span style="color:#FF51C2;font-weight:bold;">Lecture et parsing enrichi</span> des fichiers STEP, IFC, 3D XML…</li>
+                <li><span style="color:#FF51C2;font-weight:bold;">Matching automatique 2D/3D</span> : associations entre couches DXF issues du module C, features CAO et objets 3D.</li>
+                <li><span style="color:#FF51C2;font-weight:bold;">Gestion des axes et coordonnées XYZ</span> : focus sur la robustesse et la précision de l’axe Z.</li>
+                <li><span style="color:#FF51C2;font-weight:bold;">Validation, audit et génération</span> d’un mapping JSON enrichi, prêt pour la XR et la simulation 3D.</li>
+                <li><span style="color:#FF51C2;font-weight:bold;">Communication avancée</span> : interopérabilité, logs et reporting automatisé pour intégration PLM/ERP/XR.</li>
+            </ul>
+            <div style="margin-top:1.6em;text-align:right;">
+                <button id="toggle-step-perf" aria-expanded="false" aria-controls="step-perf-panel"
+                  class="btn-stepx">
+                  📊 Voir le bulletin technique & performance STEP Map
+                </button>
+            </div>
+        </div>
+        <!-- PANEL CACHE PAR DÉFAUT -->
+        <div id="step-perf-panel" class="wapi-log-panel" style="display:none;">
+            <div class="fl-wrap" style="margin:2em 0 1em 0;">
+              <h4 style="text-align:center; color:#e9f9e2;">Bulletin technique & performance STEP Map (rapport 2025-06-05)</h4>
+              <div class="bar-row">
+                <span>Mapping 2D ↔ 3D (global) :</span>
+                <div class="bar"><div class="bar-fill" style="width:97%;background:#FF51C2;"></div></div>
+                <span class="bar-value" style="color:#FF51C2;">97%</span>
+              </div>
+              <div class="bar-row">
+                <span>Détection et correspondance axe Z :</span>
+                <div class="bar"><div class="bar-fill" style="width:99%;background:#FF51C2;"></div></div>
+                <span class="bar-value" style="color:#FF51C2;">99%</span>
+              </div>
+              <div class="bar-row">
+                <span>Enrichissement XR Ready :</span>
+                <div class="bar"><div class="bar-fill" style="width:94%;background:#FF51C2;"></div></div>
+                <span class="bar-value" style="color:#FF51C2;">94%</span>
+              </div>
+              <div class="bar-row">
+                <span>Communication & logs automatisés :</span>
+                <div class="bar"><div class="bar-fill" style="width:98%;background:#FF51C2;"></div></div>
+                <span class="bar-value" style="color:#FF51C2;">98%</span>
+              </div>
+            </div>
+            <div class="fl-wrap moduleA-table-wrap">
+              <h4 style="text-align:center; color:#e9f9e2;">Correspondances & coordonnées sur la pièce M0165-05-0001-01</h4>
+              <div style="overflow-x:auto;">
+                <table class="moduleA-table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Type</th>
+                      <th>2D Entity</th>
+                      <th>3D Object</th>
+                      <th>Coordonnées XYZ</th>
+                      <th>Statut</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2025-06-05 15:09</td>
+                      <td>AXIS</td>
+                      <td>Layer_Z</td>
+                      <td>M0165-05-0001-01</td>
+                      <td style="color:#FF51C2;">[124.2, 58.3, <b>Z=320.0</b>]</td>
+                      <td class="ok" style="color:#FF51C2;">OK</td>
+                    </tr>
+                    <tr>
+                      <td>2025-06-05 15:10</td>
+                      <td>BLOCK</td>
+                      <td>Block_ZX</td>
+                      <td>M0165-05-0001-01</td>
+                      <td style="color:#FF51C2;">[210.1, 79.6, <b>Z=320.0</b>]</td>
+                      <td class="ok" style="color:#FF51C2;">OK</td>
+                    </tr>
+                    <tr>
+                      <td>2025-06-05 15:11</td>
+                      <td>PROFILE</td>
+                      <td>Profile_AZ</td>
+                      <td>M0165-05-0001-01</td>
+                      <td style="color:#FF51C2;">[188.0, 90.0, <b>Z=320.0</b>]</td>
+                      <td class="ok" style="color:#FF51C2;">OK</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="fl-wrap moduleA-json-wrap">
+              <b style="color:#e9f9e2;">Exemple JSON enrichi du mapping STEP :</b>
+              <pre class="moduleA-json" style="color:#FF51C2;">
+{
+  "type": "STEP",
+  "part": "M0165-05-0001-01",
+  "mapping": [
+    {
+      "entity2D": "Layer_Z",
+      "object3D": "M0165-05-0001-01",
+      "xyz": [124.2, 58.3, 320.0],
+      "xr_ready": true,
+      "comm_status": "connected"
+    },
+    {
+      "entity2D": "Block_ZX",
+      "object3D": "M0165-05-0001-01",
+      "xyz": [210.1, 79.6, 320.0],
+      "xr_ready": true,
+      "comm_status": "connected"
+    }
+  ],
+  "logs": [
+    {"action":"map","success":true,"axis":"Z","timestamp":"2025-06-05T15:09:00Z"}
+  ]
+}
+              </pre>
+            </div>
+            <div class="fl-wrap moduleA-center moduleA-laststats" style="color:#e9f9e2;">
+              <span><b>Dernière entité Z détectée :</b> <span class="entity" style="color:#FF51C2;">Layer_Z</span></span>
+              <span style="margin-left:2em;"><b>Capacité XR / communication :</b> <span class="stat" style="color:#FF51C2;">99%</span></span>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btnD = document.getElementById('toggle-step-perf');
+  var panelD = document.getElementById('step-perf-panel');
+  if(btnD && panelD){
+    btnD.addEventListener('click', function(){
+      var visible = panelD.style.display !== 'none' && panelD.style.display !== '';
+      panelD.style.display = visible ? 'none' : 'block';
+      btnD.setAttribute('aria-expanded', !visible);
+      btnD.textContent = visible ?
+        '📊 Voir le bulletin technique & performance STEP Map' :
+        '✖ Fermer le bulletin technique & performance STEP Map';
+      if (!visible) {
+        panelD.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    });
+  }
+});
+</script>
+<style>
+#moduleD p, #moduleD ul, #moduleD li, #moduleD th, #moduleD td, #moduleD h4, #moduleD b {
+    color: #e9f9e2 !important;
+}
+#moduleD .btn-stepx {
+    background:#FF51C2;
+    color:#fff;
+    border:none;
+    border-radius:7px;
+    padding:10px 22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 2px 12px #ff51c244;
+    transition:background 0.2s;
+    font-size:1em;
+}
+#moduleD .btn-stepx:hover { background:#c80092; }
+#moduleD .bar-row {
+    display:flex;
+    align-items:center;
+    gap:1em;
+    margin-bottom:1.2em;
+    justify-content:center;
+}
+#moduleD .bar-row span { color:#e9f9e2; font-weight:bold; min-width:180px; }
+#moduleD .bar {
+    background:#232323;
+    border-radius:6px;
+    overflow:hidden;
+    width:240px;
+    height:18px;
+    margin-right:0.6em;
+}
+#moduleD .bar-fill { background:#FF51C2 !important; height:100%; transition:width 1s;}
+#moduleD .bar-value { color:#FF51C2 !important; font-weight:bold; min-width:42px; text-align:right;}
+#moduleD .moduleA-table-wrap { margin:2em auto; width:95%; max-width:700px; }
+#moduleD .moduleA-table {
+    width:100%; min-width:360px;
+    background:#161616;
+    border-radius:8px;
+    box-shadow:0 2px 8px #0002;
+    color: #e9f9e2;
+}
+#moduleD .moduleA-table th, #moduleD .moduleA-table td {
+    padding: 8px;
+    text-align: left;
+}
+#moduleD .moduleA-table thead { background:#222; color:#FF51C2; }
+#moduleD .moduleA-table .ok { color:#FF51C2; }
+#moduleD .moduleA-table .warning { color:#F9CA43; }
+#moduleD .moduleA-json {
+    background:#181C20;
+    color:#FF51C2;
+    font-size:1em;
+    border-radius:7px;
+    padding:12px 18px;
+    margin-top:0.5em;
+    overflow:auto;
+}
+#moduleD .entity, #moduleD .stat { color: #FF51C2; }
+@media (max-width: 900px) {
+  #moduleD .bar { width: 50vw; min-width: 80px; max-width: 230px;}
+  #moduleD .moduleA-table-wrap, #moduleD .moduleA-json-wrap { max-width: 100vw; }
+}
+@media (max-width: 600px) {
+  #moduleD .moduleA-json { font-size: 0.93em !important; }
+  #moduleD .bar { width: 33vw; min-width: 50px; max-width: 150px;}
+}
+.step-bullet-pink { list-style: none; margin: 0; padding: 0; }
+.step-bullet-pink li { position: relative; padding-left: 1.4em; margin-bottom: 0.5em;}
+.step-bullet-pink li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #FF51C2;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+</style>
+<div class="sec-dec"></div>
+
+<section id="moduleE">
+    <div class="container small-container">
+        <div class="section-title fl-wrap">
+            <h3>Module E – XR</h3>
+            <h4>Export & Visualisation XR/3D</h4>
+            <div class="section-number">E.</div>
+        </div>
+        <div class="column-wrapper_text fl-wrap">
+            <div class="serv-media">
+                <img src="../../images/services/xr_module.png" alt="Visualisation XR Export" style="width:175px;height:175px;margin-bottom:1em;">
+            </div>
+            <p style="color:#e9f9e2;">
+                <b><span style="color:#0078D7;">Module E – XR</span></b> (<i><span style="color:#0078D7;">Export & Visualisation XR/3D</span></i>)<br>
+                Transforme toutes les données validées et mappées en objets 3D interactifs, exportables vers les plateformes XR (Unity, Unreal Engine, WebXR, Blender, TouchDesigner). Le module E permet la visualisation immersive des jumeaux numériques, la simulation en temps réel et la validation sur site pour l’ingénierie et la production.<br>
+                <b>Le module XR de MetricX est conçu pour une communication directe et structurée avec les principaux moteurs 3D, exploitant des JSON enrichis pour une efficacité et une productivité maximales tout au long du pipeline numérique.</b>
+            </p><br><br>
+            <ul class="xr-bullet-blue" style="color:#e9f9e2; text-align:left;">
+                <li>Génération et export automatique de modèles 3D + métadonnées vers les plateformes XR/AR/VR.</li>
+                <li>Streaming des attributs techniques : couleurs, matériaux, structures, tolérances, etc.</li>
+                <li>Compatibilité native : <b>Unity3D, Unreal Engine, Blender 3D, TouchDesigner, WebXR et plateformes XR cloud</b>.</li>
+                <li>Suivi en direct des exports, logs de performance et audit d'intégrité pour un déploiement robuste.</li>
+                <li>Sortie JSON prête à l'audit, optimisée pour une ingestion sans friction par les moteurs 3D et les applications métiers.</li>
+            </ul>
+            <div style="margin-top:1.6em;text-align:right;">
+                <button id="toggle-xr-details" aria-expanded="false" aria-controls="xr-details-panel"
+                  class="btn-xr">
+                  📊 Voir le rapport technique XR (Module E)
+                </button>
+            </div>
+        </div>
+        <div id="xr-details-panel" class="wapi-log-panel" style="display:none;">
+            <div class="fl-wrap" style="margin:2em 0 1em 0;">
+              <h4 style="text-align:center; color:#e9f9e2;">Module E – Rapport Technique & Cas d’Usage XR (2025-06-05)</h4>
+              <div class="fl-wrap moduleA-table-wrap">
+                <h4 style="text-align:center; color:#e9f9e2;">Performance export & structuration XR</h4>
+                <div style="overflow-x:auto;">
+                  <table class="moduleA-table">
+                    <thead>
+                      <tr>
+                        <th>Indicateur</th>
+                        <th>Taux</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="color:white;">Taux de succès d’export 3D</td>
+                        <td style="color:#0078D7; font-weight:bold;">98%</td>
+                      </tr>
+                      <tr>
+                        <td style="color:white;">Compatibilité plateformes XR/VR/AR</td>
+                        <td style="color:#0078D7; font-weight:bold;">100%</td>
+                      </tr>
+                      <tr>
+                        <td style="color:white;">Enrichissement & structuration des données</td>
+                        <td style="color:#0078D7; font-weight:bold;">96%</td>
+                      </tr>
+                      <tr>
+                        <td style="color:white;">Impact sur l’optimisation des process</td>
+                        <td style="color:#0078D7; font-weight:bold;">92%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="fl-wrap moduleA-table-wrap">
+                <h4 style="text-align:center; color:#e9f9e2;">Exports XR récents & cibles d’intégration</h4>
+                <div style="overflow-x:auto;">
+                  <table class="moduleA-table">
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Plateforme cible</th>
+                        <th>Modèle</th>
+                        <th>Statut</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>2025-06-05 15:14</td>
+                        <td>Unity3D</td>
+                        <td>MODEL_002</td>
+                        <td class="ok" style="color:#0078D7; font-weight:bold;">OK</td>
+                      </tr>
+                      <tr>
+                        <td>2025-06-05 15:15</td>
+                        <td>Unreal Engine</td>
+                        <td>MODEL_002</td>
+                        <td class="ok" style="color:#0078D7; font-weight:bold;">OK</td>
+                      </tr>
+                      <tr>
+                        <td>2025-06-05 15:16</td>
+                        <td>Blender 3D</td>
+                        <td>MODEL_002</td>
+                        <td class="ok" style="color:#0078D7; font-weight:bold;">OK</td>
+                      </tr>
+                      <tr>
+                        <td>2025-06-05 15:17</td>
+                        <td>TouchDesigner</td>
+                        <td>MODEL_002</td>
+                        <td class="ok" style="color:#0078D7; font-weight:bold;">OK</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="fl-wrap moduleA-json-wrap">
+                <b style="color:#e9f9e2;">Exemple de JSON XR exporté :</b>
+                <pre class="moduleA-json" style="color:#0078D7; background:#181C20;">
+{ "model": "MODEL_002", "status": "exported", "platform": "Unity3D", "time": "1.3s", "attributes": { "color": "steelblue", "material": "aluminum", "structure": "assembly" } }
+                </pre>
+              </div>
+              <div class="fl-wrap moduleA-center moduleA-laststats" style="color:#e9f9e2;">
+                <span><b>Dernier objet généré :</b> <span class="entity" style="color:#0078D7;">MODEL_002</span></span>
+                <span style="margin-left:2em;"><b>Taux d’export XR actuel :</b> <span class="stat" style="color:#0078D7;">98%</span></span>
+              </div>
+              <div class="fl-wrap moduleA-usecases" style="margin-top:1.7em; color:#e9f9e2;">
+                <h4 style="text-align:center; color:#e9f9e2;">Principaux cas d’usage & impacts</h4>
+                <ul style="color:#e9f9e2; text-align:left;">
+                  <li><b>Optimisation des process de production :</b> Visualisation 3D temps réel des lignes et jumeaux numériques, tests de scénarios rapides et aide à la décision.</li>
+                  <li><b>Gain de productivité :</b> Formation immersive, simulation et validation à distance réduisent les arrêts et accélèrent l’intégration des équipes.</li>
+                  <li><b>Communication stratégique :</b> Intégration avec LinkedIn et reporting entreprise pour valoriser l’innovation et la transformation digitale propulsées par MetricX.</li>
+                  <li><b>Flux 3D unifié :</b> Standardisation de bout en bout (STEP/DXF/JSON) pour une intégration plug & play avec les plateformes métiers et créatives 3D.</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btnE = document.getElementById('toggle-xr-details');
+  var panelE = document.getElementById('xr-details-panel');
+  if(btnE && panelE){
+    btnE.addEventListener('click', function(){
+      var visible = panelE.style.display !== 'none' && panelE.style.display !== '';
+      panelE.style.display = visible ? 'none' : 'block';
+      btnE.setAttribute('aria-expanded', !visible);
+      btnE.textContent = visible ?
+        '📊 Voir le rapport technique XR (Module E)' :
+        '✖ Fermer le rapport technique XR (Module E)';
+      if (!visible) {
+        panelE.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    });
+  }
+});
+</script>
+<style>
+#moduleE p, #moduleE ul, #moduleE li, #moduleE th, #moduleE td, #moduleE h4, #moduleE b {
+    color: #e9f9e2 !important;
+}
+#moduleE .btn-xr {
+    background:#0078D7 !important;
+    color:#fff !important;
+    border:none;
+    border-radius:7px;
+    padding:10px 22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 2px 12px #0078d733;
+    transition:background 0.2s;
+    font-size:1em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+#moduleE .btn-xr:hover { background:#005fa3 !important; }
+#moduleE .moduleA-table-wrap { margin:2em auto; width:95%; max-width:700px; }
+#moduleE .moduleA-table {
+    width:100%; min-width:320px;
+    background:#161616;
+    border-radius:8px;
+    box-shadow:0 2px 8px #0002;
+    color: #e9f9e2;
+}
+#moduleE .moduleA-table th, #moduleE .moduleA-table td {
+    padding: 8px;
+    text-align: left;
+    border: none;
+}
+#moduleE .moduleA-table thead { background:#222; color:#0078D7; }
+#moduleE .moduleA-table .ok { color:#0078D7; font-weight:bold;}
+#moduleE .moduleA-table .warning { color:#F9CA43; }
+#moduleE .moduleA-json {
+    background:#181C20;
+    color:#0078D7;
+    font-size:1em
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btnE = document.getElementById('toggle-xr-details');
+  var panelE = document.getElementById('xr-details-panel');
+  if(btnE && panelE){
+    btnE.addEventListener('click', function(){
+      var visible = panelE.style.display !== 'none' && panelE.style.display !== '';
+      panelE.style.display = visible ? 'none' : 'block';
+      btnE.setAttribute('aria-expanded', !visible);
+      btnE.textContent = visible ?
+        '📊 Voir le rapport technique XR (Module E)' :
+        '✖ Fermer le rapport technique XR (Module E)';
+      if (!visible) {
+        panelE.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    });
+  }
+});
+</script>
+<style>
+@media (max-width: 700px) {
+  .column-image {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-width: 0 !important;
+    height: auto !important;
+    max-height: 150px !important;
+    margin: 0 auto 16px auto !important;
+    padding: 0 !important;
+    position: static !important;
+    overflow: visible !important;
+    z-index: 0 !important;
+  }
+  .overlay {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+  }
+  .column-title {
+    display: none !important; /* Ou réduire la taille si tu veux garder le titre */
+  }
+  #metricx-canvas {
+    display: block !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-height: 80px !important;
+    max-height: 110px !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+  }
+  .serv-media img {
+    max-width: 160px !important;
+    max-height: 110px !important;
+  }
+  .fixed-column-dec {
+    display: none !important;
+  }
+  /* Le reste de ton patch mobile (nav sticky, tables, etc) reste inchangé */
+  @media (max-width: 700px) {
+  .column-image {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: auto !important;
+    max-height: 140px !important;
+    margin: 0 auto 16px auto !important;
+    padding: 0 !important;
+    position: static !important;
+    overflow: visible !important;
+    z-index: 0 !important;
+  }
+  .overlay {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+  }
+  .column-title {
+    display: none !important;
+  }
+  #metricx-canvas {
+    display: block !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-height: 80px !important;
+    max-height: 110px !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+  }
+}
+}
+
+@media (max-width: 700px) {
+  /* TABLEAUX : scroll horizontal, padding, police adaptée */
+  .moduleA-table-wrap, .moduleA-table {
+    font-size: 0.92em !important;
+    max-width: 100vw !important;
+    overflow-x: auto !important;
+    margin-left: -6px !important;
+    margin-right: -6px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px #0003 !important;
+  }
+  .moduleA-table th, .moduleA-table td {
+    min-width: 88px;
+    padding: 7px 6px !important;
+    white-space: nowrap !important;
+    font-size: 0.97em !important;
+    border: none !important;
+    background: none !important;
+  }
+  .moduleA-table th:first-child, .moduleA-table td:first-child {
+    padding-left: 10px !important;
+  }
+  .moduleA-table th:last-child, .moduleA-table td:last-child {
+    padding-right: 10px !important;
+  }
+  /* JSON box : bord arrondi, padding, police réduite */
+  .moduleA-json-wrap {
+    margin: 0.8em 0 1.1em 0 !important;
+    padding: 0 !important;
+  }
+  .moduleA-json {
+    background: #181C20;
+    color: #22BB66;
+    font-size: 0.92em !important;
+    border-radius: 7px;
+    padding: 9px 7px 9px 12px !important;
+    margin-top: 0.5em;
+    margin-left: -2px !important;
+    margin-right: -2px !important;
+    word-break: break-all;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px #0003 !important;
+  }
+  /* Barres de performance : marges et alignement */
+  .bar-row, .moduleA-center {
+    margin-top: 0.6em !important;
+    margin-bottom: 0.6em !important;
+    gap: 0.6em !important;
+    flex-wrap: wrap;
+  }
+  .bar-row span, .bar-value {
+    font-size: 0.95em !important;
+    min-width: 72px;
+  }
+  /* Dernière entité, stats : bien séparées en colonne */
+  .moduleA-laststats {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.2em !important;
+    margin-bottom: 1em !important;
+  }
+  /* Titres entre blocs : espace + taille adaptée */
+  h4, .section-title h3 {
+    font-size: 1.10em !important;
+    margin-top: 1.2em !important;
+    margin-bottom: 0.6em !important;
+  }
+  .section-title {
+    margin-bottom: 0.7em !important;
+  }
+  /* Boutons : margin large en haut/bas */
+  .btn-metricx, .btn-cad, .btn-dxf, .btn-stepx, .btn-xr {
+    margin-top: 1.2em !important;
+    margin-bottom: 1.2em !important;
+    width: 97% !important;
+    font-size: 1.07em !important;
+  }
+  /* Fix: centrer le contenu du log-panel sur mobile */
+  .wapi-log-panel, .fl-wrap {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+</style>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-down-fixed">
+        <div class="scroll-down-wrap">
+            <span>SCROLLEZ POUR DÉCOUVRIR</span>
+        </div>
+    </div>
+    <script>
+    // Sécurité : ne lance l’animation que si le canvas est présent
+    document.addEventListener("DOMContentLoaded", function() {
+        var canvas = document.getElementById('metricx-canvas');
+        if (canvas) {
+            // ... Ton code d’animation ici (ou dans js_metricx-canvas.js) ...
+        }
+    });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.3.2/gl-matrix-min.js"></script>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/plugins.js"></script>
+    <script src="../../js/scripts.js"></script>
+    <script src="../../js/js_metricx-canvas.js"></script> 
+</body>
+</html>
