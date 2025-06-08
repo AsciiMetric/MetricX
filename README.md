@@ -120,3 +120,9 @@ This repository is provided to support open testing, demonstration, and performa
 For specific requests, access to advanced modules, or collaboration: use the official contact form or the provided email addresses.
 
 ---
+
+**Official MetricX page:** [www.asciimetric.stuio/metricx_EN.html](http://www.asciimetric.stuio/metricx_EN.html)  
+**AsciiMetric Freelance Official Website:** [www.asciimetric.studio](http://www.asciimetric.studio)  
+**LinkedIn Page:** [https://www.linkedin.com/company/asciimetricservices](https://www.linkedin.com/company/asciimetricservices)  
+**Created by Silan Laurent**  
+**LinkedIn Profile:** [https://www.linkedin.com/in/lsilan/](https://www.linkedin.com/in/lsilan/)
