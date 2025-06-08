@@ -34,13 +34,20 @@ metricx/
 │   ├── dxf_data_extract/
 │   ├── step_data_extract/
 │   └── ...
-├── demos/                     # Reproducible demos, notebooks, sample scripts
+├── demos/                     # Reproducible demos, notebooks, and sample scripts
 │   ├── demo_notebooks/
+│   │   └── demo1/
+│   │       ├── notebook.ipynb
+│   │       └── resources/
+│   │           ├── example.drw
+│   │           ├── example.prt
+│   │           ├── example.dxf
+│   │           └── example.step
 │   └── demo_scripts/
-├── performance_audit/         # Public performance test reports and benchmark scripts (anonymized)
+├── performance_audit/         # Public benchmark & audit reports, performance test scripts (anonymized)
 │   ├── reports/
 │   └── test_scripts/
-├── examples/                  # Safe, non-proprietary sample files
+├── examples/                  # Safe, non-proprietary sample files for general use
 ├── public/                    # Public communication assets (logos, images, UI screenshots)
 │   └── assets/
 ├── community/                 # Community information (Discord, contribution ideas, etc.)
@@ -64,6 +71,15 @@ metricx/
 - **Branding & communication:** Centralized assets, up-to-date docs, clear folders for each audience (dev, client, partner, recruiter, contributor).
 - **Security & confidentiality:** Strong .gitignore, no confidential or proprietary data in public folders, explicit privacy statements in each critical folder.
 - **Contributor experience:** Easy onboarding thanks to clear docs, safe examples, community, and issue/PR templates.
+
+---
+
+## File Organization for Test and Demo Resources
+
+- **Demo notebooks/scripts:** Place all resources required for a specific demo in a subfolder like `demos/demo_notebooks/demo1/resources/` (e.g., `.drw`, `.prt`, `.dxf`, `.step` files).
+- **General test datasets:** Use `testdata/` for anonymized, reusable test files shared across tests.
+- **Never include confidential, client, or proprietary data in any public folder.**
+- Always document the nature and origin of files in a `README.md` inside each resource folder.
 
 ---
 
