@@ -5,9 +5,13 @@
 
 ---
 
-## Project Objective
+## About MetricX
 
-MetricX is a modular, open-core platform for the management, extraction, and enhancement of CAD/PLM/XR data. Our mission is to deliver robust, transparent, and secure tools, while clearly distinguishing between open modules and proprietary/commercial components.
+MetricX is a modular, open-core platform developed to facilitate the integration and creation of digital twins, as well as to support the evolution toward Industry 5.0.  
+It offers a unified approach for the management, extraction, and enhancement of CAD, PLM, and XR data, enabling interoperability between physical and digital assets for advanced industrial and engineering use cases.
+
+This repository is provided as a resource to enable testing and benchmarking of MetricX modules, and to transparently communicate selected performance reports for each open module of the solution.  
+No proprietary, confidential, or client data is included; only safe, anonymized, or synthetic examples are provided.
 
 ---
 
@@ -64,20 +68,22 @@ metricx/
 
 ---
 
-## Key Principles
+## Usage & Principles
 
-- **Strict separation:** Demos, audits, and public modules are open; core business and confidential assets remain private and local only.
-- **Transparency:** Performance, audit, and demo material is available for community review and credibility.
-- **Branding & communication:** Centralized assets, up-to-date docs, clear folders for each audience (dev, client, partner, recruiter, contributor).
-- **Security & confidentiality:** Strong .gitignore, no confidential or proprietary data in public folders, explicit privacy statements in each critical folder.
-- **Contributor experience:** Easy onboarding thanks to clear docs, safe examples, community, and issue/PR templates.
+- **Testing & transparency:** This repository is intended for safe public testing, reproducible demonstrations, and sharing anonymized performance audits of MetricX modules.
+- **Digital twin & Industry 5.0:** MetricX enables practical experimentation around digital twin creation, advanced data integration, and industrial digitalization in line with Industry 5.0 values.
+- **Strict separation:** No proprietary business logic, confidential, or client data is ever published here. All sensitive code and data remain private.
+- **Security & confidentiality:** A strict `.gitignore` and privacy policy are enforced. Each resource folder includes a `README.md` stating the nature and origin of its contents.
+- **Branding & communication:** All assets for communication (logos, screenshots, etc.) are centralized, and documentation is kept up-to-date for clarity.
+- **Contributor experience:** The structure, documentation, and community spaces are designed to simplify onboarding and encourage safe, constructive contributions.
 
 ---
 
-## File Organization for Test and Demo Resources
+## Organizing Test and Demo Resources
 
-- **Demo notebooks/scripts:** Place all resources required for a specific demo in a subfolder like `demos/demo_notebooks/demo1/resources/` (e.g., `.drw`, `.prt`, `.dxf`, `.step` files).
-- **General test datasets:** Use `testdata/` for anonymized, reusable test files shared across tests.
+- **Demo notebooks/scripts:** Place all resources required for a specific demo (such as `.drw`, `.prt`, `.dxf`, `.step` files) inside a subfolder like `demos/demo_notebooks/demo1/resources/`.
+- **General test datasets:** Use `testdata/` for anonymized or synthetic files used in automated testing or scripts.
+- **Performance audits:** Results and scripts for benchmarking modules are under `performance_audit/`.
 - **Never include confidential, client, or proprietary data in any public folder.**
 - Always document the nature and origin of files in a `README.md` inside each resource folder.
 
@@ -87,7 +93,7 @@ metricx/
 
 1. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 2. Open an issue for questions, suggestions, or bug reports
-3. Use only non-proprietary examples in your contributions
+3. Use only non-proprietary, safe examples in your contributions
 4. **Never share** confidential data, credentials, or core business modules here
 
 ---
@@ -106,7 +112,7 @@ metricx/
 
 ## About
 
-This repository reflects AsciiMetric’s digital strategy:  
+This repository is provided to support open testing, demonstration, and performance communication around MetricX modules, in line with AsciiMetric’s digital strategy:  
 - Community openness  
 - Technical proof for partners, clients, and recruiters  
 - Exemplary security, confidentiality & governance
