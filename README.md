@@ -1,4 +1,4 @@
-# MetricX
+# MetricX – LLM Solution for Industrial Data, Digital Twins, PLM/PDM & XR Integration
 
 **AsciiMetric / MetricX – Official Repository**  
 *Digital Strategy, Open Innovation & Confidentiality Governance*
@@ -7,11 +7,17 @@
 
 ## About MetricX
 
-MetricX is a modular, open-core platform developed to facilitate the integration and creation of digital twins, as well as to support the evolution toward Industry 5.0.  
-It offers a unified approach for the management, extraction, and enhancement of CAD, PLM, and XR data, enabling interoperability between physical and digital assets for advanced industrial and engineering use cases.
+MetricX is a next-generation, modular LLM solution designed to automate, standardize, and enhance the integration of industrial data across CAD, PLM/PDM, and XR ecosystems.  
+Built to accelerate the creation of digital twins and support the transition toward Industry 5.0, MetricX leverages advanced local Large Language Models (LLMs), robust standardization, and deep interoperability to bridge the gap between physical and digital assets in complex industrial environments.
 
-This repository is provided as a resource to enable testing and benchmarking of MetricX modules, and to transparently communicate selected performance reports for each open module of the solution.  
-No proprietary, confidential, or client data is included; only safe, anonymized, or synthetic examples are provided.
+**Key features and modules:**
+- **Wapi:** Secure, bi-directional data exchange and synchronization with PLM/PDM systems (Teamcenter, Windchill, SAP PLM, 3DEXPERIENCE), ensuring integrity, versioning, and end-to-end traceability.
+- **CAD:** Advanced extraction and normalization of native CAD data (PTC Creo, SolidWorks, Siemens NX), supporting both 2D and 3D geometries, assemblies, and engineering metadata.
+- **2D Data Extractor:** LLM-powered extraction, contextual correction, and standardization of 2D plans (DXF, PDF, scans) into “Industry Ready” structured files (JSON, STEP, CSV), optimized for quality control and automated integration.
+- **3D Data Extractor:** Automated conversion and structuring of 3D model data for digital twin simulation, XR, and advanced analytics—eliminating silos and enabling seamless data flows.
+- **XR Integrator:** Generation of output files for XR, AR/VR, and digital twin applications (Unity, Unreal, proprietary engines), contextualizing technical data for immersive visualization, maintenance, and training.
+
+This repository enables public testing, benchmarking, and transparent performance reporting of open MetricX modules, with only anonymized or synthetic data—no proprietary, confidential, or client material is ever included.
 
 ---
 
@@ -29,16 +35,16 @@ metricx/
 ├── DISCLOSURE.md
 ├── COMMERCIAL.md
 ├── .gitignore
-├── docs/                      # Public technical documentation and usage guides
+├── docs/
 │   ├── index.md
 │   └── module_overview.md
-├── modules/                   # Public open-core modules (never proprietary core code)
+├── modules/
 │   ├── wapi/
 │   ├── cad/
 │   ├── dxf_data_extract/
 │   ├── step_data_extract/
 │   └── ...
-├── demos/                     # Reproducible demos, notebooks, and sample scripts
+├── demos/
 │   ├── demo_notebooks/
 │   │   └── demo1/
 │   │       ├── notebook.ipynb
@@ -48,44 +54,44 @@ metricx/
 │   │           ├── example.dxf
 │   │           └── example.step
 │   └── demo_scripts/
-├── performance_audit/         # Public benchmark & audit reports, performance test scripts (anonymized)
+├── performance_audit/
 │   ├── reports/
 │   └── test_scripts/
-├── examples/                  # Safe, non-proprietary sample files for general use
-├── public/                    # Public communication assets (logos, images, UI screenshots)
+├── examples/
+├── public/
 │   └── assets/
-├── community/                 # Community information (Discord, contribution ideas, etc.)
+├── community/
 │   ├── discord_invite.md
 │   └── contribution_ideas.md
-├── scripts/                   # Utility scripts (public, non-sensitive)
-├── testdata/                  # Anonymized test datasets
-├── .github/                   # CI workflows, issue/PR templates, funding
+├── scripts/
+├── testdata/
+├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   ├── workflows/
 │   └── FUNDING.yml
-└── private/                   # Never on GitHub: core code, sensitive modules, R&D (local only)
+└── private/
 ```
 
 ---
 
 ## Usage & Principles
 
-- **Testing & transparency:** This repository is intended for safe public testing, reproducible demonstrations, and sharing anonymized performance audits of MetricX modules.
-- **Digital twin & Industry 5.0:** MetricX enables practical experimentation around digital twin creation, advanced data integration, and industrial digitalization in line with Industry 5.0 values.
-- **Strict separation:** No proprietary business logic, confidential, or client data is ever published here. All sensitive code and data remain private.
-- **Security & confidentiality:** A strict `.gitignore` and privacy policy are enforced. Each resource folder includes a `README.md` stating the nature and origin of its contents.
-- **Branding & communication:** All assets for communication (logos, screenshots, etc.) are centralized, and documentation is kept up-to-date for clarity.
-- **Contributor experience:** The structure, documentation, and community spaces are designed to simplify onboarding and encourage safe, constructive contributions.
+- **Testing & transparency:** Public testing, reproducible demos, and sharing anonymized performance audits for MetricX modules.
+- **Digital twin & Industry 5.0:** Practical experimentation for digital twin creation, advanced data integration, and industrial digitalization aligned with Industry 5.0 values.
+- **Strict separation:** No proprietary business logic, confidential, or client data is published here. All sensitive code and data remain private.
+- **Security & confidentiality:** Strict `.gitignore` and privacy policy. Each resource folder includes a `README.md` describing its contents.
+- **Branding & communication:** Centralized communication assets; up-to-date documentation.
+- **Contributor experience:** Clear structure, documentation, and community spaces for easy onboarding and safe, constructive contributions.
 
 ---
 
 ## Organizing Test and Demo Resources
 
-- **Demo notebooks/scripts:** Place all resources required for a specific demo (such as `.drw`, `.prt`, `.dxf`, `.step` files) inside a subfolder like `demos/demo_notebooks/demo1/resources/`.
-- **General test datasets:** Use `testdata/` for anonymized or synthetic files used in automated testing or scripts.
-- **Performance audits:** Results and scripts for benchmarking modules are under `performance_audit/`.
+- **Demo notebooks/scripts:** Place all demo resources (e.g., `.drw`, `.prt`, `.dxf`, `.step`) inside `demos/demo_notebooks/demo1/resources/`.
+- **General test datasets:** Use `testdata/` for anonymized or synthetic files for automated testing or scripts.
+- **Performance audits:** Benchmarking results and scripts are under `performance_audit/`.
 - **Never include confidential, client, or proprietary data in any public folder.**
-- Always document the nature and origin of files in a `README.md` inside each resource folder.
+- Document the nature and origin of files in a `README.md` inside each resource folder.
 
 ---
 
@@ -112,12 +118,12 @@ metricx/
 
 ## About
 
-This repository is provided to support open testing, demonstration, and performance communication around MetricX modules, in line with AsciiMetric’s digital strategy:  
+This repository supports open testing, demonstration, and transparent performance communication for MetricX modules, in line with AsciiMetric’s digital strategy:  
 - Community openness  
 - Technical proof for partners, clients, and recruiters  
 - Exemplary security, confidentiality & governance
 
-For specific requests, access to advanced modules, or collaboration: use the official contact form or the provided email addresses.
+For specific requests, advanced module access, or collaboration: use the official contact form or provided email addresses.
 
 ---
 
