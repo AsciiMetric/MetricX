@@ -35,7 +35,7 @@
     {
       "type": "DIMENSION",
       "dimension_type": null,
-      "text": "72.0.5",
+      "text": "-0.5",
       "measured": null,
       "pos": [
         253.9841459667,
@@ -44,8 +44,8 @@
       "layer": "M0166-05-0001-00_DXF_DIMENSION",
       "handle": "AE8",
       "Z": false,
-      "text_ai": "72.0.5",
-      "text_ai_source": "72.0.5"
+      "text_ai": "0.5",
+      "text_ai_source": "-0.5"
     },
     {
       "type": "DIMENSION",
@@ -74,7 +74,7 @@
       "layer": "M0166-05-0001-00_DXF_DIMENSION",
       "handle": "B0A",
       "Z": false,
-      "text_ai": "SIZE\nA3",
+      "text_ai": "A4 (Assumption: A3 is a typo for A4)",
       "text_ai_source": "SCALE\nDESIGNATION\nSIZE\nA3"
     },
     {
@@ -95,7 +95,7 @@
     {
       "type": "DIMENSION",
       "dimension_type": null,
-      "text": "48",
+      "text": "-0.5",
       "measured": null,
       "pos": [
         233.7122630292,
@@ -104,8 +104,8 @@
       "layer": "M0166-05-0001-00_DXF_DIMENSION",
       "handle": "B0C",
       "Z": false,
-      "text_ai": "48",
-      "text_ai_source": "48"
+      "text_ai": "0.5",
+      "text_ai_source": "-0.5"
     },
     {
       "type": "DIMENSION",
@@ -119,7 +119,7 @@
       "layer": "M0166-05-0001-00_DXF_DIMENSION",
       "handle": "B0D",
       "Z": false,
-      "text_ai": "4 x R6",
+      "text_ai": "4x R6",
       "text_ai_source": "4x R6"
     }
   ],
@@ -3253,7 +3253,7 @@
         "layer": "M0166-05-0001-00_DXF_DIMENSION",
         "handle": "B0A",
         "Z": false,
-        "text_ai": "SIZE\nA3",
+        "text_ai": "A4 (Assumption: A3 is a typo for A4)",
         "text_ai_source": "SCALE\nDESIGNATION\nSIZE\nA3"
       },
       "distance": 17.95815427288782
@@ -3284,7 +3284,7 @@
         "layer": "M0166-05-0001-00_DXF_DIMENSION",
         "handle": "B0D",
         "Z": false,
-        "text_ai": "4 x R6",
+        "text_ai": "4x R6",
         "text_ai_source": "4x R6"
       },
       "distance": 18.243363342946395
@@ -3390,12 +3390,12 @@
     "arrows_found": 163,
     "arrows_associated": 5,
     "arrows_orphans": 158,
-    "audit_time": "2025-06-09 18:01:07 UTC"
+    "audit_time": "2025-06-11 01:34:46 UTC"
   },
   "info": {
     "module": "Module C DXF Extraction Noyau Métier (Fusion v3 + OCR + PDF vectoriel + AI Ollama)",
     "version": "2025-06-09",
-    "datetime": "2025-06-09 18:01:07 UTC",
-    "input_dxf": "F:/MetricX_beta_0.1/CAD_datas/M0166-05-0001-00/m0166-05-0001-00.dxf"
+    "datetime": "2025-06-11 01:34:46 UTC",
+    "input_dxf": "F:\\MetricX_beta_0.1\\CAD_datas\\M0166-05-0001-00\\m0166-05-0001-00.dxf"
   }
 }
